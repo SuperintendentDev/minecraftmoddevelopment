@@ -6012,6 +6012,21 @@
         ]
       },
       "path": "~/recipes"
+    },
+    {
+      "name": "Testitem",
+      "type": "item",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/TestitemItem.java",
+          "src/main/resources/assets/athena_mod/models/item/testitem.json"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [
@@ -7188,6 +7203,7 @@
       "item.athena_mod.dead_cricket": "Dead Cricket",
       "subtitles.beefcake": "",
       "subtitles.nerdhurt": "",
+      "item.athena_mod.testitem": "Testitem",
       "block.athena_mod.church_brick": "Church Brick",
       "block.athena_mod.power_crystal_block": "Power Crystal Block",
       "item.athena_mod.titanium_shovel": "Titanium Shovel",

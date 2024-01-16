@@ -26,6 +26,7 @@ import net.mcreator.athenamod.item.TitaniumPickaxeItem;
 import net.mcreator.athenamod.item.TitaniumIngotItem;
 import net.mcreator.athenamod.item.TitaniumHoeItem;
 import net.mcreator.athenamod.item.TitaniumAxeItem;
+import net.mcreator.athenamod.item.TestitemItem;
 import net.mcreator.athenamod.item.SubMachineGunItem;
 import net.mcreator.athenamod.item.SteelingotItem;
 import net.mcreator.athenamod.item.SteelSwordItem;
@@ -261,6 +262,7 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> DAWNBLADEINSTONE = block(AthenaModModBlocks.DAWNBLADEINSTONE);
 	public static final RegistryObject<Item> AETHERSWORD = REGISTRY.register("aethersword", () -> new AetherswordItem());
 	public static final RegistryObject<Item> NUKE_LAUNCHER = REGISTRY.register("nuke_launcher", () -> new NukeLauncherItem());
+	public static final RegistryObject<Item> TESTITEM = REGISTRY.register("testitem", () -> new TestitemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
