@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "1": {
+      "item": "athena_mod:alien_tech"
+    },
+    "2": {
+      "item": "athena_mod:steelingot"
+    },
+    "3": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "4": {
+      "item": "athena_mod:gun_barrel"
+    },
+    "5": {
+      "item": "athena_mod:reciever"
+    }
+  },
+  "result": {
+    "item": "athena_mod:raygun",
+    "count": 1
+  }
+}

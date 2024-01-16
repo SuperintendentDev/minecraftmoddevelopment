@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:steelingot"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "athena_mod:steelingot"
+    },
+    "3": {
+      "item": "athena_mod:steelingot"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "item": "athena_mod:steelingot"
+    },
+    "6": {
+      "item": "athena_mod:steelingot"
+    },
+    "7": {
+      "item": "athena_mod:steelingot"
+    },
+    "8": {
+      "item": "athena_mod:steelingot"
+    }
+  },
+  "result": {
+    "item": "athena_mod:magazine",
+    "count": 1
+  }
+}

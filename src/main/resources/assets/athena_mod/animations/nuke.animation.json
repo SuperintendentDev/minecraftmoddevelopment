@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"explode": {
+			"loop": true,
+			"animation_length": 5.04,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.04": {
+							"vector": [0, 92.5, 0]
+						}
+					}
+				},
+				"bone2": {
+					"position": {
+						"0.0": {
+							"vector": [0, -23, 0]
+						},
+						"1.2": {
+							"vector": [0, 0, 0]
+						},
+						"5.04": {
+							"vector": [0, -0.2, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

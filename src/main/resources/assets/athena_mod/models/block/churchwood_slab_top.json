@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "athena_mod:block/churchwood_planks",
+    "top": "athena_mod:block/churchwood_planks",
+    "side": "athena_mod:block/churchwood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:cheese"
+    },
+    "1": {
+      "item": "athena_mod:cheese"
+    },
+    "2": {
+      "item": "athena_mod:cheese"
+    },
+    "3": {
+      "item": "athena_mod:cheese"
+    },
+    "4": {
+      "item": "athena_mod:cheese"
+    },
+    "5": {
+      "item": "athena_mod:cheese"
+    },
+    "6": {
+      "item": "athena_mod:cheese"
+    },
+    "7": {
+      "item": "athena_mod:cheese"
+    },
+    "8": {
+      "item": "athena_mod:cheese"
+    }
+  },
+  "result": {
+    "item": "athena_mod:cheese_block",
+    "count": 1
+  }
+}

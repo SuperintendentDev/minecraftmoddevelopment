@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "athena_mod:forgotten_lands_forest",
+  "features": "athena_mod:rose",
+  "step": "vegetal_decoration"
+}

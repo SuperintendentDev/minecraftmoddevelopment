@@ -1,0 +1,52 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "mc_smg",
+    "customModelName": "rocketlauncher:default",
+    "name": "Rocket Launcher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Rocket"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:rocket"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "onRangedItemUsed": {
+      "name": "RocketLauncherRangedItemUsed"
+    },
+    "bulletPower": 3.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelrocket",
+    "customBulletModelTexture": "rocketproj.png",
+    "onBulletHitsBlock": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "RocketLauncherWhileProjectileFlyingTick"
+    }
+  }
+}

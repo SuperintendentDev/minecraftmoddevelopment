@@ -1,0 +1,21 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "taiga",
+    "birch_forest",
+    "flower_forest",
+    "snowy_taiga",
+    "swamp",
+    "old_growth_birch_forest",
+    "windswept_hills",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "plains",
+    "windswept_forest",
+    "meadow",
+    "old_growth_spruce_taiga"
+  ],
+  "features": "athena_mod:cabin",
+  "step": "surface_structures"
+}

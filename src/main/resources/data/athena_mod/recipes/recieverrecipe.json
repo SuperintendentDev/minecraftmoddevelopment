@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:steel_block"
+    },
+    "1": {
+      "item": "athena_mod:steel_block"
+    },
+    "3": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "athena_mod:reciever",
+    "count": 1
+  }
+}

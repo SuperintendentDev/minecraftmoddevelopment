@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/researchtable1",
+    "up": "athena_mod:block/researchtableside",
+    "north": "athena_mod:block/researchtablefront",
+    "east": "athena_mod:block/researchtableside1",
+    "south": "athena_mod:block/researchtable1",
+    "west": "athena_mod:block/researchtableside1",
+    "particle": "athena_mod:block/researchtable1"
+  },
+  "render_type": "solid"
+}

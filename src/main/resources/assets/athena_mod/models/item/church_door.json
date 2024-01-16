@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "athena_mod:item/churchdoor"
+  },
+  "render_type": "translucent"
+}

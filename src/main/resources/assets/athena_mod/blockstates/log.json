@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "athena_mod:block/log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "athena_mod:block/log"
+    },
+    "axis=z": {
+      "model": "athena_mod:block/log",
+      "x": 90
+    }
+  }
+}

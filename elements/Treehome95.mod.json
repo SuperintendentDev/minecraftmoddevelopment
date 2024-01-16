@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Treehome95",
+    "texture": "wolf_cover2",
+    "description": "Treehome95",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:treehome95"
+    },
+    "lengthInTicks": 4000,
+    "analogOutput": 0
+  }
+}

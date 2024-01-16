@@ -1,0 +1,32 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "stony_shore",
+    "sunflower_plains",
+    "snowy_plains",
+    "taiga",
+    "flower_forest",
+    "snowy_taiga",
+    "swamp",
+    "old_growth_birch_forest",
+    "windswept_hills",
+    "athena_mod:city",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "plains",
+    "stony_peaks",
+    "windswept_forest",
+    "jungle",
+    "windswept_gravelly_hills",
+    "desert",
+    "meadow",
+    "old_growth_spruce_taiga"
+  ],
+  "spawners": {
+    "type": "athena_mod:ufo",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

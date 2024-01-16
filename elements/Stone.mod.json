@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:HeavenStone"
+      },
+      {
+        "value": "CUSTOM:MoonRock"
+      },
+      {
+        "value": "CUSTOM:FossilStone"
+      },
+      {
+        "value": "CUSTOM:ChristaniumOre"
+      },
+      {
+        "value": "CUSTOM:TitaniumOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "stone",
+    "namespace": "minecraft"
+  }
+}

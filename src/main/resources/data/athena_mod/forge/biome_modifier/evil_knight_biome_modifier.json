@@ -1,0 +1,32 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "savanna_plateau",
+    "forest",
+    "sunflower_plains",
+    "snowy_plains",
+    "taiga",
+    "birch_forest",
+    "flower_forest",
+    "snowy_taiga",
+    "swamp",
+    "old_growth_birch_forest",
+    "grove",
+    "windswept_hills",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "plains",
+    "savanna",
+    "wooded_badlands",
+    "windswept_forest",
+    "jungle",
+    "meadow",
+    "old_growth_spruce_taiga"
+  ],
+  "spawners": {
+    "type": "athena_mod:evil_knight",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

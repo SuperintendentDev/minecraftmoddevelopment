@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:gun_barrel"
+    },
+    "3": {
+      "item": "athena_mod:magazine"
+    },
+    "4": {
+      "item": "athena_mod:reciever"
+    },
+    "8": {
+      "item": "athena_mod:wood_gun_stock"
+    }
+  },
+  "result": {
+    "item": "athena_mod:sub_machine_gun",
+    "count": 1
+  }
+}

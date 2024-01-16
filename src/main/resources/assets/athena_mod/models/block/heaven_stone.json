@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/heavenstone",
+    "up": "athena_mod:block/heavenstone",
+    "north": "athena_mod:block/heavenstone",
+    "east": "athena_mod:block/heavenstone",
+    "south": "athena_mod:block/heavenstone",
+    "west": "athena_mod:block/heavenstone",
+    "particle": "athena_mod:block/heavenstone"
+  },
+  "render_type": "solid"
+}

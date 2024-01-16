@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "athena_mod:block/churchwood_slab"
+    },
+    "type=top": {
+      "model": "athena_mod:block/churchwood_slab_top"
+    },
+    "type=double": {
+      "model": "athena_mod:block/churchwood_slab_full"
+    }
+  }
+}

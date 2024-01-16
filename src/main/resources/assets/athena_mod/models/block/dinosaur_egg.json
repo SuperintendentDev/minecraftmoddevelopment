@@ -1,0 +1,9 @@
+{
+  "parent": "athena_mod:custom/dinoegg",
+  "textures": {
+    "all": "athena_mod:block/eggtexture",
+    "particle": "athena_mod:block/eggtexture",
+    "0": "athena_mod:block/eggtexture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/cheeseblock",
+    "up": "athena_mod:block/cheeseblock",
+    "north": "athena_mod:block/cheeseblock",
+    "east": "athena_mod:block/cheeseblock",
+    "south": "athena_mod:block/cheeseblock",
+    "west": "athena_mod:block/cheeseblock",
+    "particle": "athena_mod:block/cheeseblock"
+  },
+  "render_type": "solid"
+}

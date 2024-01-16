@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/lunarsoil",
+    "up": "athena_mod:block/lunarsoil",
+    "north": "athena_mod:block/lunarsoil",
+    "east": "athena_mod:block/lunarsoil",
+    "south": "athena_mod:block/lunarsoil",
+    "west": "athena_mod:block/lunarsoil",
+    "particle": "athena_mod:block/lunarsoil"
+  },
+  "render_type": "solid"
+}

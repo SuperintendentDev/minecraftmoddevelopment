@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/goldenapplelogtop",
+    "up": "athena_mod:block/goldenapplelogtop",
+    "north": "athena_mod:block/goldenapplelogside",
+    "east": "athena_mod:block/goldenapplelogside",
+    "south": "athena_mod:block/goldenapplelogside",
+    "west": "athena_mod:block/goldenapplelogside",
+    "particle": "athena_mod:block/goldenapplelogtop"
+  },
+  "render_type": "solid"
+}

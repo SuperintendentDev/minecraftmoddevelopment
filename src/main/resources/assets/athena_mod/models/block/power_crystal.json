@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "athena_mod:block/powercrystal",
+    "particle": "athena_mod:block/powercrystal"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,52 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "mc_smg",
+    "customModelName": "nukelauncher:default",
+    "name": "Nuke Launcher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:NuclearBomb"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:rocket"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "onRangedItemUsed": {
+      "name": "RocketLauncherRangedItemUsed"
+    },
+    "bulletPower": 3.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelrocket",
+    "customBulletModelTexture": "rocketproj.png",
+    "onBulletHitsBlock": {
+      "name": "NukeLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "NukeLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "NukeLauncherProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "RocketLauncherWhileProjectileFlyingTick"
+    }
+  }
+}

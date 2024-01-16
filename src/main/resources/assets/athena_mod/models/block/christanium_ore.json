@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/christanium_ore",
+    "up": "athena_mod:block/christanium_ore",
+    "north": "athena_mod:block/christanium_ore",
+    "east": "athena_mod:block/christanium_ore",
+    "south": "athena_mod:block/christanium_ore",
+    "west": "athena_mod:block/christanium_ore",
+    "particle": "athena_mod:block/christanium_ore"
+  },
+  "render_type": "solid"
+}

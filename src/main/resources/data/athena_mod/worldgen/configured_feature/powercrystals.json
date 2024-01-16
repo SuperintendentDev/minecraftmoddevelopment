@@ -1,0 +1,14 @@
+{
+  "type": "athena_mod:powercrystals",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "athena_mod:power_crystal",
+        "Properties": {
+          "waterlogged": "false"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "athena_mod:overlord_tools_sword"
+    },
+    {
+      "item": "athena_mod:zilla_sword"
+    },
+    {
+      "item": "athena_mod:dawn_blade"
+    }
+  ],
+  "result": {
+    "item": "athena_mod:aethersword",
+    "count": 1
+  }
+}

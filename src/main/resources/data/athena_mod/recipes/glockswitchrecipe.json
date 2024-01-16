@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "athena_mod:glock_switch"
+    },
+    {
+      "item": "athena_mod:pistol"
+    }
+  ],
+  "result": {
+    "item": "athena_mod:glock_with_switch",
+    "count": 1
+  }
+}

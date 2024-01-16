@@ -1,0 +1,143 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "assaultpistoltexture",
+		"particle": "assaultpistoltexture"
+	},
+	"elements": [
+		{
+			"from": [7.5, 1.25, 8.75],
+			"to": [8.5, 5.25, 10.75],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 5.25, 9]},
+			"faces": {
+				"north": {"uv": [3, 4.5, 3.25, 5.5], "texture": "#0"},
+				"east": {"uv": [2.5, 4.5, 3, 5.5], "texture": "#0"},
+				"south": {"uv": [3.75, 4.5, 4, 5.5], "texture": "#0"},
+				"west": {"uv": [3.25, 4.5, 3.75, 5.5], "texture": "#0"},
+				"up": {"uv": [3.25, 4.5, 3, 4], "texture": "#0"},
+				"down": {"uv": [3.5, 4, 3.25, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 4.25, 7.25],
+			"to": [8, 5.25, 9.25],
+			"faces": {
+				"north": {"uv": [1, 6.25, 1, 6.5], "texture": "#0"},
+				"east": {"uv": [0.5, 6.25, 1, 6.5], "texture": "#0"},
+				"south": {"uv": [1.5, 6.25, 1.5, 6.5], "texture": "#0"},
+				"west": {"uv": [1, 6.25, 1.5, 6.5], "texture": "#0"},
+				"up": {"uv": [1, 6.25, 1, 5.75], "texture": "#0"},
+				"down": {"uv": [1, 5.75, 1, 6.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5.75, 0],
+			"to": [8, 6.75, 9],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.5, 6.25, 4.5]},
+			"faces": {
+				"north": {"uv": [6.25, 14.75, 6.5, 15], "texture": "#0"},
+				"east": {"uv": [4, 14.75, 6.25, 15], "texture": "#0"},
+				"south": {"uv": [8.75, 14.75, 9, 15], "texture": "#0"},
+				"west": {"uv": [6.5, 14.75, 8.75, 15], "texture": "#0"},
+				"up": {"uv": [6.5, 14.75, 6.25, 12.5], "texture": "#0"},
+				"down": {"uv": [6.75, 12.5, 6.5, 14.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 5.75, 0],
+			"to": [9, 6.75, 9],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8.5, 6.25, 4.5]},
+			"faces": {
+				"north": {"uv": [6.25, 14.75, 6.5, 15], "texture": "#0"},
+				"east": {"uv": [4, 14.75, 6.25, 15], "texture": "#0"},
+				"south": {"uv": [8.75, 14.75, 9, 15], "texture": "#0"},
+				"west": {"uv": [6.5, 14.75, 8.75, 15], "texture": "#0"},
+				"up": {"uv": [6.5, 14.75, 6.25, 12.5], "texture": "#0"},
+				"down": {"uv": [6.75, 12.5, 6.5, 14.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 5.75, 1],
+			"to": [8.5, 6.75, 10],
+			"faces": {
+				"north": {"uv": [6.25, 14.5, 6.5, 14.75], "texture": "#0"},
+				"east": {"uv": [4, 14.5, 6.25, 14.75], "texture": "#0"},
+				"south": {"uv": [8.75, 14.5, 9, 14.75], "texture": "#0"},
+				"west": {"uv": [6.5, 14.5, 8.75, 14.75], "texture": "#0"},
+				"up": {"uv": [6.5, 14.5, 6.25, 12.25], "texture": "#0"},
+				"down": {"uv": [6.75, 12.25, 6.5, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5.25, 1],
+			"to": [9, 6.25, 10],
+			"faces": {
+				"north": {"uv": [3, 6.75, 3.5, 7], "texture": "#0"},
+				"east": {"uv": [0.75, 6.75, 3, 7], "texture": "#0"},
+				"south": {"uv": [5.75, 6.75, 6.25, 7], "texture": "#0"},
+				"west": {"uv": [3.5, 6.75, 5.75, 7], "texture": "#0"},
+				"up": {"uv": [3.5, 6.75, 3, 4.5], "texture": "#0"},
+				"down": {"uv": [4, 4.5, 3.5, 6.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 6.25, 0.5],
+			"to": [8, 7.25, 1.5],
+			"faces": {
+				"north": {"uv": [0.75, 6, 0.75, 6.25], "texture": "#0"},
+				"east": {"uv": [0.5, 6, 0.75, 6.25], "texture": "#0"},
+				"south": {"uv": [1, 6, 1, 6.25], "texture": "#0"},
+				"west": {"uv": [0.75, 6, 1, 6.25], "texture": "#0"},
+				"up": {"uv": [0.75, 6, 0.75, 5.75], "texture": "#0"},
+				"down": {"uv": [0.75, 5.75, 0.75, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.5, 3, -1],
+			"scale": [0.91797, 0.91797, 0.91797]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.25, 2.75, -1],
+			"scale": [0.87305, 0.87305, 0.87305]
+		},
+		"firstperson_righthand": {
+			"translation": [-6.25, 5.25, 5.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [-7.25, 5.25, 5]
+		},
+		"ground": {
+			"translation": [0, 3, 0]
+		},
+		"gui": {
+			"rotation": [-90, 124, 90],
+			"translation": [3.25, 2, 0],
+			"scale": [1.11328, 1.11328, 1.11328]
+		},
+		"head": {
+			"translation": [0, 8.5, 0]
+		},
+		"fixed": {
+			"rotation": [89.59, -53, 89.66],
+			"translation": [-2.75, 2, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "rifle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "smg",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4, 5, 6]
+				}
+			]
+		}
+	]
+}

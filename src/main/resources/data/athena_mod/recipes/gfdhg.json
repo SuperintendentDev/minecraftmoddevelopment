@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "1": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "2": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "3": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "5": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "6": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "8": {
+      "item": "athena_mod:christanium_gem"
+    }
+  },
+  "result": {
+    "item": "athena_mod:overlord_leggings",
+    "count": 1
+  }
+}

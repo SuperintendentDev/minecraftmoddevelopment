@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "old_growth_birch_forest",
+    "forest",
+    "dark_forest",
+    "taiga",
+    "old_growth_pine_taiga",
+    "athena_mod:city",
+    "birch_forest",
+    "flower_forest",
+    "old_growth_spruce_taiga"
+  ],
+  "spawners": {
+    "type": "athena_mod:fortnite",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

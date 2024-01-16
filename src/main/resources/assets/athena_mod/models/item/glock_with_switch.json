@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/glockswitch",
+  "textures": {
+    "0": "athena_mod:block/glockswitchtexture",
+    "particle": "athena_mod:item/mc_smg"
+  }
+}

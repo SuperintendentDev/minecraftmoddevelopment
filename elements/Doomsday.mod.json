@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Doomsday",
+    "texture": "mfdoommusicpic",
+    "description": "mf doom",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:doomsday"
+    },
+    "lengthInTicks": 6000,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "old_growth_birch_forest",
+    "forest",
+    "dark_forest",
+    "taiga",
+    "old_growth_pine_taiga",
+    "birch_forest",
+    "flower_forest",
+    "old_growth_spruce_taiga"
+  ],
+  "spawners": {
+    "type": "athena_mod:lumberjack",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

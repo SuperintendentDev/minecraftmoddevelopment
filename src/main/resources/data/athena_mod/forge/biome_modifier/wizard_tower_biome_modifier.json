@@ -1,0 +1,25 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "savanna_plateau",
+    "forest",
+    "snowy_plains",
+    "taiga",
+    "birch_forest",
+    "flower_forest",
+    "snowy_taiga",
+    "swamp",
+    "cherry_grove",
+    "old_growth_birch_forest",
+    "windswept_hills",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "plains",
+    "savanna",
+    "windswept_forest",
+    "meadow",
+    "old_growth_spruce_taiga"
+  ],
+  "features": "athena_mod:wizard_tower",
+  "step": "surface_structures"
+}

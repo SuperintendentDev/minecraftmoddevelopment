@@ -1,0 +1,43 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "warped_forest",
+    "mushroom_fields",
+    "forest",
+    "stony_shore",
+    "sunflower_plains",
+    "sparse_jungle",
+    "birch_forest",
+    "flower_forest",
+    "snowy_slopes",
+    "nether_wastes",
+    "cherry_grove",
+    "soul_sand_valley",
+    "dark_forest",
+    "plains",
+    "savanna",
+    "stony_peaks",
+    "meadow",
+    "savanna_plateau",
+    "snowy_plains",
+    "swamp",
+    "badlands",
+    "old_growth_birch_forest",
+    "grove",
+    "windswept_hills",
+    "old_growth_pine_taiga",
+    "beach",
+    "windswept_savanna",
+    "wooded_badlands",
+    "windswept_forest",
+    "jungle",
+    "windswept_gravelly_hills",
+    "desert"
+  ],
+  "spawners": {
+    "type": "athena_mod:dragon",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

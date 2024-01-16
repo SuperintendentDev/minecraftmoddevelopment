@@ -1,0 +1,31 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mushroom_fields",
+    "sunflower_plains",
+    "birch_forest",
+    "swamp",
+    "cherry_grove",
+    "old_growth_birch_forest",
+    "grove",
+    "windswept_hills",
+    "athena_mod:city",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "beach",
+    "plains",
+    "savanna",
+    "windswept_savanna",
+    "windswept_forest",
+    "jungle",
+    "windswept_gravelly_hills",
+    "meadow",
+    "old_growth_spruce_taiga"
+  ],
+  "spawners": {
+    "type": "athena_mod:prince",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

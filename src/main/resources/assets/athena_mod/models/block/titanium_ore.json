@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/titaniumore",
+    "up": "athena_mod:block/titaniumore",
+    "north": "athena_mod:block/titaniumore",
+    "east": "athena_mod:block/titaniumore",
+    "south": "athena_mod:block/titaniumore",
+    "west": "athena_mod:block/titaniumore",
+    "particle": "athena_mod:block/titaniumore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "athena_mod:block/research_table"
+    },
+    "facing=east": {
+      "model": "athena_mod:block/research_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "athena_mod:block/research_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "athena_mod:block/research_table",
+      "y": 270
+    }
+  }
+}

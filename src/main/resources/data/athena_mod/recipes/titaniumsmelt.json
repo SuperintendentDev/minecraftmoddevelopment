@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "athena_mod:raw_titanium"
+  },
+  "result": "athena_mod:titanium_ingot"
+}

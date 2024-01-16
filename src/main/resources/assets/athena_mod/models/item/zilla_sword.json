@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/zillasword",
+  "textures": {
+    "0": "athena_mod:block/zillaswordtexture",
+    "particle": "athena_mod:item/zillasword"
+  }
+}

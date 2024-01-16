@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:gun_barrel"
+    },
+    "1": {
+      "item": "athena_mod:gun_barrel"
+    },
+    "2": {
+      "item": "athena_mod:gun_barrel"
+    }
+  },
+  "result": {
+    "item": "athena_mod:long_gun_barrel",
+    "count": 1
+  }
+}

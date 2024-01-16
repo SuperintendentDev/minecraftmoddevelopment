@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/log_oak_top",
+    "up": "athena_mod:block/log_oak_top",
+    "north": "athena_mod:block/log_oak",
+    "east": "athena_mod:block/log_oak",
+    "south": "athena_mod:block/log_oak",
+    "west": "athena_mod:block/log_oak",
+    "particle": "athena_mod:block/log_oak_top"
+  },
+  "render_type": "solid"
+}

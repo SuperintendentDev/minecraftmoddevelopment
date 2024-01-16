@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "  5"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:logs"
+    },
+    "1": {
+      "tag": "minecraft:logs"
+    },
+    "2": {
+      "tag": "minecraft:logs"
+    },
+    "5": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "athena_mod:wood_gun_stock",
+    "count": 1
+  }
+}

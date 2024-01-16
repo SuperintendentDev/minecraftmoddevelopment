@@ -1,0 +1,22 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "savanna_plateau",
+    "forest",
+    "stony_shore",
+    "sparse_jungle",
+    "beach",
+    "savanna",
+    "stony_peaks",
+    "windswept_savanna",
+    "windswept_forest",
+    "desert",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "athena_mod:terrorist",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 8
+  }
+}

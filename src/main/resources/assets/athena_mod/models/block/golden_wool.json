@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/goldwool",
+    "up": "athena_mod:block/goldwool",
+    "north": "athena_mod:block/goldwool",
+    "east": "athena_mod:block/goldwool",
+    "south": "athena_mod:block/goldwool",
+    "west": "athena_mod:block/goldwool",
+    "particle": "athena_mod:block/goldwool"
+  },
+  "render_type": "solid"
+}

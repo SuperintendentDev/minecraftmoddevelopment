@@ -1,0 +1,40 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mushroom_fields",
+    "forest",
+    "stony_shore",
+    "sunflower_plains",
+    "sparse_jungle",
+    "birch_forest",
+    "flower_forest",
+    "mangrove_swamp",
+    "cherry_grove",
+    "dark_forest",
+    "plains",
+    "savanna",
+    "stony_peaks",
+    "meadow",
+    "old_growth_spruce_taiga",
+    "savanna_plateau",
+    "taiga",
+    "crimson_forest",
+    "swamp",
+    "old_growth_birch_forest",
+    "grove",
+    "windswept_hills",
+    "old_growth_pine_taiga",
+    "beach",
+    "windswept_savanna",
+    "windswept_forest",
+    "jungle",
+    "windswept_gravelly_hills",
+    "desert"
+  ],
+  "spawners": {
+    "type": "athena_mod:mr_duck",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

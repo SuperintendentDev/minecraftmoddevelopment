@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/dirt",
+    "up": "athena_mod:block/grass_top",
+    "north": "athena_mod:block/grass_side",
+    "east": "athena_mod:block/grass_side",
+    "south": "athena_mod:block/grass_side",
+    "west": "athena_mod:block/grass_side",
+    "particle": "athena_mod:block/dirt"
+  },
+  "render_type": "solid"
+}

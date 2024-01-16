@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:gun_barrel"
+    },
+    "2": {
+      "item": "athena_mod:magazine"
+    },
+    "3": {
+      "item": "athena_mod:reciever"
+    }
+  },
+  "result": {
+    "item": "athena_mod:assault_pistol",
+    "count": 1
+  }
+}

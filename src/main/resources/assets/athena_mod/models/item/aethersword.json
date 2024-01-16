@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/aetherbane",
+  "textures": {
+    "0": "athena_mod:block/aetherbanetexture",
+    "particle": "athena_mod:item/aetherbane"
+  }
+}

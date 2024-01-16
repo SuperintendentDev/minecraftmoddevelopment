@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/churchwall",
+    "up": "athena_mod:block/churchwall",
+    "north": "athena_mod:block/churchwall",
+    "east": "athena_mod:block/churchwall",
+    "south": "athena_mod:block/churchwall",
+    "west": "athena_mod:block/churchwall",
+    "particle": "athena_mod:block/churchwall"
+  },
+  "render_type": "solid"
+}

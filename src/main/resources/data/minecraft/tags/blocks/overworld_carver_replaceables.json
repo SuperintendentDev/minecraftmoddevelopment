@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "athena_mod:moon_rock",
+    "athena_mod:lunar_soil",
+    "athena_mod:heaven_stone",
+    "athena_mod:heaven_grass_block",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "athena_mod:grass"
+  ]
+}

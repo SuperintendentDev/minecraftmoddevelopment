@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:cheese_block"
+    }
+  },
+  "result": {
+    "item": "athena_mod:cheese",
+    "count": 9
+  }
+}

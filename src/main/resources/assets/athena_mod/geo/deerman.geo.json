@@ -1,0 +1,91 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 18, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [36, 46]}
+					]
+				},
+				{
+					"name": "leg",
+					"parent": "body",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-3, 0, -1], "size": [2, 12, 2], "uv": [22, 41]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "body",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [2, 12, 2], "uv": [22, 41], "mirror": true}
+					]
+				},
+				{
+					"name": "arm",
+					"parent": "body",
+					"pivot": [-4, 23, 0],
+					"cubes": [
+						{"origin": [-6, 12, -1], "size": [2, 12, 2], "uv": [22, 41]}
+					]
+				},
+				{
+					"name": "arm2",
+					"parent": "body",
+					"pivot": [4, 23, 0],
+					"cubes": [
+						{"origin": [4, 12, -1], "size": [2, 12, 2], "uv": [22, 41], "mirror": true}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [1.36236, 23.95062, 0],
+					"cubes": [
+						{"origin": [-3, 24, -3], "size": [6, 6, 6], "uv": [36, 30]},
+						{"origin": [3, 26, -1], "size": [1, 4, 2], "pivot": [3, 29.5, 0], "rotation": [0, 0, -25], "uv": [15, 17]},
+						{"origin": [-4, 26, -1], "size": [1, 4, 2], "pivot": [-3, 29.5, 0], "rotation": [0, 0, 25], "uv": [15, 17], "mirror": true},
+						{"origin": [-1.5, 24, -6], "size": [3, 3, 3], "uv": [22, 28]}
+					]
+				},
+				{
+					"name": "antler",
+					"parent": "head",
+					"pivot": [3.01991, 29.40781, 0],
+					"rotation": [0, 0, -40],
+					"cubes": [
+						{"origin": [5, 26, -0.5], "size": [1, 3, 1], "pivot": [4.5, 29, 0], "rotation": [0, 0, -27.5], "uv": [29, 13]},
+						{"origin": [6, 31, -0.5], "size": [2, 1, 1], "uv": [43, 11]},
+						{"origin": [5, 30, -0.5], "size": [1, 3, 1], "uv": [29, 13]},
+						{"origin": [2, 29, -0.5], "size": [7, 1, 1], "uv": [41, 22]}
+					]
+				},
+				{
+					"name": "antler2",
+					"parent": "head",
+					"pivot": [-3.01991, 29.40781, 0],
+					"rotation": [0, 0, 40],
+					"cubes": [
+						{"origin": [-6, 26, -0.5], "size": [1, 3, 1], "pivot": [-4.5, 29, 0], "rotation": [0, 0, 27.5], "uv": [29, 13], "mirror": true},
+						{"origin": [-8, 31, -0.5], "size": [2, 1, 1], "uv": [43, 11], "mirror": true},
+						{"origin": [-6, 30, -0.5], "size": [1, 3, 1], "uv": [29, 13], "mirror": true},
+						{"origin": [-9, 29, -0.5], "size": [7, 1, 1], "uv": [41, 22], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

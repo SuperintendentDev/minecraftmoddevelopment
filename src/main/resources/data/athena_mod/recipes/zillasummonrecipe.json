@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    {
+      "item": "athena_mod:brontosaurus_meat"
+    },
+    {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    {
+      "item": "athena_mod:tyrannosaurus_meat"
+    },
+    {
+      "item": "athena_mod:dinosaur_egg"
+    },
+    {
+      "item": "athena_mod:raptor_meat"
+    },
+    {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    {
+      "item": "athena_mod:lizard"
+    },
+    {
+      "item": "athena_mod:power_crystal_shard"
+    }
+  ],
+  "result": {
+    "item": "athena_mod:zilla_summoner",
+    "count": 1
+  }
+}

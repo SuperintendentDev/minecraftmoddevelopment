@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "zillabeam",
+    "customModelName": "Normal",
+    "name": "Zilla Beam",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100000,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 30.0,
+    "bulletPower": 8.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Raygun"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "ZillaBeamWhileProjectileFlyingTick"
+    }
+  }
+}

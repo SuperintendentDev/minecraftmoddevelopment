@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "athena_mod:block/poppy",
+    "particle": "athena_mod:block/poppy"
+  },
+  "render_type": "cutout"
+}

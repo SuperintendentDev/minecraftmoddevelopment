@@ -1,0 +1,962 @@
+{
+  "cricketchirp": {
+    "sounds": [
+      {
+        "name": "athena_mod:cricket",
+        "stream": false
+      }
+    ]
+  },
+  "apollohiss": {
+    "sounds": [
+      {
+        "name": "athena_mod:apollohiss",
+        "stream": false
+      }
+    ]
+  },
+  "alien": {
+    "sounds": [
+      {
+        "name": "athena_mod:alien",
+        "stream": false
+      }
+    ]
+  },
+  "alienhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:alienhurt",
+        "stream": false
+      }
+    ]
+  },
+  "aliendeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:aliendeath",
+        "stream": false
+      }
+    ]
+  },
+  "laser": {
+    "sounds": [
+      {
+        "name": "athena_mod:laser",
+        "stream": false
+      }
+    ]
+  },
+  "autogunshot": {
+    "sounds": [
+      {
+        "name": "athena_mod:automatic_gun_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "gunshot": {
+    "sounds": [
+      {
+        "name": "athena_mod:gunshot",
+        "stream": false
+      }
+    ]
+  },
+  "hover": {
+    "sounds": [
+      {
+        "name": "athena_mod:hover",
+        "stream": false
+      }
+    ]
+  },
+  "rocket": {
+    "sounds": [
+      {
+        "name": "athena_mod:rocketlauncher",
+        "stream": false
+      }
+    ]
+  },
+  "zillaroar1": {
+    "sounds": [
+      {
+        "name": "athena_mod:zillaroar1",
+        "stream": false
+      }
+    ]
+  },
+  "zillaroar2": {
+    "sounds": [
+      {
+        "name": "athena_mod:zillaroar2",
+        "stream": false
+      }
+    ]
+  },
+  "explosion": {
+    "sounds": [
+      {
+        "name": "athena_mod:explosion",
+        "stream": false
+      }
+    ]
+  },
+  "beefcake": {
+    "sounds": [
+      {
+        "name": "athena_mod:beefcake",
+        "stream": false
+      }
+    ]
+  },
+  "nerdalive": {
+    "sounds": [
+      {
+        "name": "athena_mod:nerdambient",
+        "stream": false
+      }
+    ]
+  },
+  "nerdhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:nerdhurt",
+        "stream": false
+      }
+    ]
+  },
+  "nerddeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:imdead",
+        "stream": false
+      }
+    ]
+  },
+  "raptorambient": {
+    "sounds": [
+      {
+        "name": "athena_mod:raptorambient",
+        "stream": false
+      }
+    ]
+  },
+  "raptorhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:raptorhurt",
+        "stream": false
+      }
+    ]
+  },
+  "raptordeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:raptordeath",
+        "stream": false
+      }
+    ]
+  },
+  "trexamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:tyrannosaurusabmient",
+        "stream": false
+      }
+    ]
+  },
+  "trexhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:tyrannosaurushurt",
+        "stream": false
+      }
+    ]
+  },
+  "trexdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:tyrannosaurusdeath",
+        "stream": false
+      }
+    ]
+  },
+  "akbar": {
+    "sounds": [
+      {
+        "name": "athena_mod:allahakbar",
+        "stream": false
+      }
+    ]
+  },
+  "soldieramb": {
+    "sounds": [
+      {
+        "name": "athena_mod:hoorah",
+        "stream": false
+      }
+    ]
+  },
+  "soldierhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:ah_im_hit",
+        "stream": false
+      }
+    ]
+  },
+  "soldierdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:medic",
+        "stream": false
+      }
+    ]
+  },
+  "terroramb": {
+    "sounds": [
+      {
+        "name": "athena_mod:terrorist_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "terrorhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:terrorist_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "lumberamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:splittinlogs",
+        "stream": false
+      }
+    ]
+  },
+  "lumberhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:lumber_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "lumberdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:lumber_death",
+        "stream": false
+      }
+    ]
+  },
+  "thotamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:derik_thot_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "thothurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:derik_thot_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "thotdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:derik_thot_death",
+        "stream": false
+      }
+    ]
+  },
+  "civ1amb": {
+    "sounds": [
+      {
+        "name": "athena_mod:civilian_1_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "civ1hurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:civilian_1_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "civ1death": {
+    "sounds": [
+      {
+        "name": "athena_mod:civilian_1_death",
+        "stream": false
+      }
+    ]
+  },
+  "ckamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:bangbang",
+        "stream": false
+      }
+    ]
+  },
+  "ckhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:sosa",
+        "stream": false
+      }
+    ]
+  },
+  "ckdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:oblock",
+        "stream": false
+      }
+    ]
+  },
+  "dontlike": {
+    "sounds": [
+      {
+        "name": "athena_mod:dontlike",
+        "stream": true
+      }
+    ]
+  },
+  "taykamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:beatacase",
+        "stream": false
+      }
+    ]
+  },
+  "hard": {
+    "sounds": [
+      {
+        "name": "athena_mod:no_jumper_feat_tay_k__blocboy_jb_-_hard_official_audio",
+        "stream": false
+      }
+    ]
+  },
+  "hard2": {
+    "sounds": [
+      {
+        "name": "athena_mod:hard",
+        "stream": false
+      }
+    ]
+  },
+  "impamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:impamb",
+        "stream": false
+      }
+    ]
+  },
+  "imphurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:imphurt",
+        "stream": false
+      }
+    ]
+  },
+  "impdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:impdeath",
+        "stream": false
+      }
+    ]
+  },
+  "demonamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:demonamb",
+        "stream": false
+      }
+    ]
+  },
+  "demonhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:demonhurt",
+        "stream": false
+      }
+    ]
+  },
+  "demondeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:demondeath",
+        "stream": false
+      }
+    ]
+  },
+  "taykfreed": {
+    "sounds": [
+      {
+        "name": "athena_mod:taykfreed",
+        "stream": false
+      }
+    ]
+  },
+  "tayklouder": {
+    "sounds": [
+      {
+        "name": "athena_mod:taykfreeloud",
+        "stream": false
+      }
+    ]
+  },
+  "rockmonsteremerge": {
+    "sounds": [
+      {
+        "name": "athena_mod:rockmonsteremergesound",
+        "stream": false
+      }
+    ]
+  },
+  "rockmonsterhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:rockmonsterhurt",
+        "stream": false
+      }
+    ]
+  },
+  "rockmonsterdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:rockmonsterdeath",
+        "stream": false
+      }
+    ]
+  },
+  "satanheal": {
+    "sounds": [
+      {
+        "name": "athena_mod:satanheal",
+        "stream": false
+      }
+    ]
+  },
+  "satanhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:satanhurt",
+        "stream": false
+      }
+    ]
+  },
+  "satandeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:satandeath",
+        "stream": false
+      }
+    ]
+  },
+  "satanamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:satan",
+        "stream": false
+      }
+    ]
+  },
+  "satansummon": {
+    "sounds": [
+      {
+        "name": "athena_mod:satansummon",
+        "stream": false
+      }
+    ]
+  },
+  "satanspawn": {
+    "sounds": [
+      {
+        "name": "athena_mod:satanspawn",
+        "stream": false
+      }
+    ]
+  },
+  "shotgun": {
+    "sounds": [
+      {
+        "name": "athena_mod:shotgun",
+        "stream": false
+      }
+    ]
+  },
+  "shotgunblast": {
+    "sounds": [
+      {
+        "name": "athena_mod:shotgun",
+        "stream": false
+      }
+    ]
+  },
+  "rifle": {
+    "sounds": [
+      {
+        "name": "athena_mod:rifle",
+        "stream": false
+      }
+    ]
+  },
+  "smg": {
+    "sounds": [
+      {
+        "name": "athena_mod:smg",
+        "stream": false
+      }
+    ]
+  },
+  "revolver": {
+    "sounds": [
+      {
+        "name": "athena_mod:revolver",
+        "stream": false
+      }
+    ]
+  },
+  "sniper": {
+    "sounds": [
+      {
+        "name": "athena_mod:high_power_sniper",
+        "stream": false
+      }
+    ]
+  },
+  "wizardamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:magic_mirror",
+        "stream": false
+      }
+    ]
+  },
+  "wizardhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:laugh",
+        "stream": false
+      }
+    ]
+  },
+  "wizarddeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:weez",
+        "stream": false
+      }
+    ]
+  },
+  "civ2amb": {
+    "sounds": [
+      {
+        "name": "athena_mod:weather",
+        "stream": false
+      }
+    ]
+  },
+  "civ2hurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:ouch",
+        "stream": false
+      }
+    ]
+  },
+  "civ2death": {
+    "sounds": [
+      {
+        "name": "athena_mod:death",
+        "stream": false
+      }
+    ]
+  },
+  "fortnitedie": {
+    "sounds": [
+      {
+        "name": "athena_mod:fortnite_death_sound",
+        "stream": false
+      }
+    ]
+  },
+  "doomsday": {
+    "sounds": [
+      {
+        "name": "athena_mod:doomsday",
+        "stream": true
+      }
+    ]
+  },
+  "doomamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:clockambient",
+        "stream": false
+      }
+    ]
+  },
+  "doomhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:miccheckhurt",
+        "stream": false
+      }
+    ]
+  },
+  "doomdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:allcapsdeath",
+        "stream": false
+      }
+    ]
+  },
+  "knightamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:knight_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "knighthurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:knight_hit",
+        "stream": false
+      }
+    ]
+  },
+  "knightdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:knight_death",
+        "stream": false
+      }
+    ]
+  },
+  "tyleramb": {
+    "sounds": [
+      {
+        "name": "athena_mod:nasty_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "tylerhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:ayo_hurt_sound",
+        "stream": false
+      }
+    ]
+  },
+  "tylerdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:yoassdeath",
+        "stream": false
+      }
+    ]
+  },
+  "treehome95": {
+    "sounds": [
+      {
+        "name": "athena_mod:treehome95",
+        "stream": true
+      }
+    ]
+  },
+  "kanyeamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:georgeambient",
+        "stream": false
+      }
+    ]
+  },
+  "kanyehurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:shutuphurt",
+        "stream": false
+      }
+    ]
+  },
+  "kanyedie": {
+    "sounds": [
+      {
+        "name": "athena_mod:deathparis",
+        "stream": false
+      }
+    ]
+  },
+  "chrischanamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:chrischanamb",
+        "stream": false
+      }
+    ]
+  },
+  "chrischanhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:chriscahndeath",
+        "stream": false
+      }
+    ]
+  },
+  "chrischandeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:chrischandie",
+        "stream": false
+      }
+    ]
+  },
+  "obamaamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:obama_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "obamahurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:obama_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "obamadeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:obama_death",
+        "stream": false
+      }
+    ]
+  },
+  "bibleused": {
+    "sounds": [
+      {
+        "name": "athena_mod:biblesound",
+        "stream": false
+      }
+    ]
+  },
+  "robotambient": {
+    "sounds": [
+      {
+        "name": "athena_mod:robotamb",
+        "stream": false
+      }
+    ]
+  },
+  "robotwalk": {
+    "sounds": [
+      {
+        "name": "athena_mod:robotwalk",
+        "stream": false
+      }
+    ]
+  },
+  "robothurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:robothurt",
+        "stream": false
+      }
+    ]
+  },
+  "robotdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:robotdeath",
+        "stream": false
+      }
+    ]
+  },
+  "doorunlock": {
+    "sounds": [
+      {
+        "name": "athena_mod:churchdoorunlock",
+        "stream": false
+      }
+    ]
+  },
+  "trumpamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:trumpamb",
+        "stream": false
+      }
+    ]
+  },
+  "trumphurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:trumphurt",
+        "stream": false
+      }
+    ]
+  },
+  "trumpdeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:trumpdeath",
+        "stream": false
+      }
+    ]
+  },
+  "robothurt2": {
+    "sounds": [
+      {
+        "name": "athena_mod:robothurt",
+        "stream": false
+      }
+    ]
+  },
+  "robotamb2": {
+    "sounds": [
+      {
+        "name": "athena_mod:exterminate",
+        "stream": false
+      }
+    ]
+  },
+  "robotdeath2": {
+    "sounds": [
+      {
+        "name": "athena_mod:systemsdown",
+        "stream": false
+      }
+    ]
+  },
+  "daisyamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:daisyambient",
+        "stream": false
+      }
+    ]
+  },
+  "daisyhurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:daisyhurt",
+        "stream": false
+      }
+    ]
+  },
+  "daisydeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:daisyend",
+        "stream": false
+      }
+    ]
+  },
+  "heaventheme": {
+    "sounds": [
+      {
+        "name": "athena_mod:heaventheme_2.0",
+        "stream": true
+      }
+    ]
+  },
+  "brontoamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:brontosaurusamb",
+        "stream": false
+      }
+    ]
+  },
+  "brontohurt": {
+    "sounds": [
+      {
+        "name": "athena_mod:brontosaurushurt",
+        "stream": false
+      }
+    ]
+  },
+  "brontodeath": {
+    "sounds": [
+      {
+        "name": "athena_mod:brontosaurusdeath",
+        "stream": false
+      }
+    ]
+  },
+  "dinowalk": {
+    "sounds": [
+      {
+        "name": "athena_mod:dinofootstep",
+        "stream": false
+      }
+    ]
+  },
+  "daisyamb2": {
+    "sounds": [
+      {
+        "name": "athena_mod:daisyamb",
+        "stream": false
+      }
+    ]
+  },
+  "daisyend": {
+    "sounds": [
+      {
+        "name": "athena_mod:daisyend",
+        "stream": false
+      }
+    ]
+  },
+  "daisyhurt2": {
+    "sounds": [
+      {
+        "name": "athena_mod:daisyhurt",
+        "stream": false
+      }
+    ]
+  },
+  "nuke": {
+    "sounds": [
+      {
+        "name": "athena_mod:explosionnuke",
+        "stream": false
+      }
+    ]
+  },
+  "nukesiren": {
+    "sounds": [
+      {
+        "name": "athena_mod:nukesiren",
+        "stream": false
+      }
+    ]
+  }
+}

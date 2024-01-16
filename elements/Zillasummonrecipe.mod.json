@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PowerCrystalShard"
+      },
+      {
+        "value": "CUSTOM:BrontosaurusMeat"
+      },
+      {
+        "value": "CUSTOM:PowerCrystalShard"
+      },
+      {
+        "value": "CUSTOM:TyrannosaurusMeat"
+      },
+      {
+        "value": "CUSTOM:DinosaurEgg"
+      },
+      {
+        "value": "CUSTOM:RaptorMeat"
+      },
+      {
+        "value": "CUSTOM:PowerCrystalShard"
+      },
+      {
+        "value": "CUSTOM:Lizard"
+      },
+      {
+        "value": "CUSTOM:PowerCrystalShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZillaSummoner"
+    },
+    "name": "zillasummonrecipe",
+    "namespace": "mod"
+  }
+}

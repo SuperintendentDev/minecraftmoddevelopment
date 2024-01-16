@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/powercrystalblock",
+    "up": "athena_mod:block/powercrystalblock",
+    "north": "athena_mod:block/powercrystalblock",
+    "east": "athena_mod:block/powercrystalblock",
+    "south": "athena_mod:block/powercrystalblock",
+    "west": "athena_mod:block/powercrystalblock",
+    "particle": "athena_mod:block/powercrystalblock"
+  },
+  "render_type": "solid"
+}

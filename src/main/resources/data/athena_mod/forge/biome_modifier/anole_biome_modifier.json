@@ -1,0 +1,22 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "badlands",
+    "bamboo_jungle",
+    "forest",
+    "dripstone_caves",
+    "dark_forest",
+    "plains",
+    "birch_forest",
+    "jungle",
+    "desert",
+    "mangrove_swamp",
+    "meadow"
+  ],
+  "spawners": {
+    "type": "athena_mod:anole",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 10
+  }
+}

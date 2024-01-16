@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/steelblock2",
+    "up": "athena_mod:block/steelblock2",
+    "north": "athena_mod:block/steelblock2",
+    "east": "athena_mod:block/steelblock2",
+    "south": "athena_mod:block/steelblock2",
+    "west": "athena_mod:block/steelblock2",
+    "particle": "athena_mod:block/steelblock2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PowerCrystalShard"
+      },
+      {
+        "value": "CUSTOM:AlienTech"
+      },
+      {
+        "value": "CUSTOM:Steelingot"
+      },
+      {
+        "value": "CUSTOM:PowerCrystalShard"
+      },
+      {
+        "value": "CUSTOM:GunBarrel"
+      },
+      {
+        "value": "CUSTOM:Reciever"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Raygun"
+    },
+    "name": "raygunrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:long_gun_barrel"
+    },
+    "4": {
+      "item": "athena_mod:reciever"
+    },
+    "8": {
+      "item": "athena_mod:wood_gun_stock"
+    }
+  },
+  "result": {
+    "item": "athena_mod:rifle",
+    "count": 1
+  }
+}

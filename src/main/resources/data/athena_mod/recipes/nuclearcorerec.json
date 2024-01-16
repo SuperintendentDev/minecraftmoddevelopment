@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "1": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "2": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "3": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "6": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "7": {
+      "item": "athena_mod:power_crystal_block"
+    },
+    "8": {
+      "item": "athena_mod:power_crystal_block"
+    }
+  },
+  "result": {
+    "item": "athena_mod:nuclear_warhead",
+    "count": 1
+  }
+}

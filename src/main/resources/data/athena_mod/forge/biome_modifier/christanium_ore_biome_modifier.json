@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "athena_mod:heaven_plains",
+  "features": "athena_mod:christanium_ore",
+  "step": "underground_ores"
+}

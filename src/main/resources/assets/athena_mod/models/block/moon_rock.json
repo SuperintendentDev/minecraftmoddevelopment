@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/moonrock",
+    "up": "athena_mod:block/moonrock",
+    "north": "athena_mod:block/moonrock",
+    "east": "athena_mod:block/moonrock",
+    "south": "athena_mod:block/moonrock",
+    "west": "athena_mod:block/moonrock",
+    "particle": "athena_mod:block/moonrock"
+  },
+  "render_type": "solid"
+}

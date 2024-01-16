@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/satanictexturebase",
+    "up": "athena_mod:block/satanicaltarcenter",
+    "north": "athena_mod:block/satanictexturebase",
+    "east": "athena_mod:block/satanictexturebase",
+    "south": "athena_mod:block/satanictexturebase",
+    "west": "athena_mod:block/satanictexturebase",
+    "particle": "athena_mod:block/satanictexturebase"
+  },
+  "render_type": "solid"
+}

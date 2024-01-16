@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "athena_mod:tay_kprison",
+  "step": "surface_structures"
+}

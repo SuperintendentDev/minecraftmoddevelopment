@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/zillablock",
+    "up": "athena_mod:block/zillablock",
+    "north": "athena_mod:block/zillablock",
+    "east": "athena_mod:block/zillablock",
+    "south": "athena_mod:block/zillablock",
+    "west": "athena_mod:block/zillablock",
+    "particle": "athena_mod:block/zillablock"
+  },
+  "render_type": "solid"
+}

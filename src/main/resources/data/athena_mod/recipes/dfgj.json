@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "2": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "3": {
+      "item": "athena_mod:christanium_gem"
+    },
+    "5": {
+      "item": "athena_mod:christanium_gem"
+    }
+  },
+  "result": {
+    "item": "athena_mod:overlord_boots",
+    "count": 1
+  }
+}

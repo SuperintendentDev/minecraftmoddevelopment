@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/nuke",
+    "up": "athena_mod:block/nuke",
+    "north": "athena_mod:block/nuke",
+    "east": "athena_mod:block/nuke",
+    "south": "athena_mod:block/nuke",
+    "west": "athena_mod:block/nuke",
+    "particle": "athena_mod:block/nuke"
+  },
+  "render_type": "solid"
+}

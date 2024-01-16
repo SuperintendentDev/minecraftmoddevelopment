@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/rifle",
+  "textures": {
+    "0": "athena_mod:block/rifle2",
+    "particle": "athena_mod:item/mc_smg"
+  }
+}

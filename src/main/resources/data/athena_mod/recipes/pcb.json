@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "1": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "2": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "3": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "4": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "5": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "6": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "7": {
+      "item": "athena_mod:power_crystal_shard"
+    },
+    "8": {
+      "item": "athena_mod:power_crystal_shard"
+    }
+  },
+  "result": {
+    "item": "athena_mod:power_crystal_block",
+    "count": 1
+  }
+}

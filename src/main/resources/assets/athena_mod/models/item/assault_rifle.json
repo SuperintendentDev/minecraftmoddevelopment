@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/assaultrifle",
+  "textures": {
+    "0": "athena_mod:block/artexture",
+    "particle": "athena_mod:item/mc_smg"
+  }
+}

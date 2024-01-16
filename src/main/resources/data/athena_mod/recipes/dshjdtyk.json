@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "athena_mod:raptor_meat"
+    }
+  },
+  "result": {
+    "item": "athena_mod:dinosaur_dna",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Dont Like",
+    "texture": "chiefkeefcover",
+    "description": "chiefkeef",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:dontlike"
+    },
+    "lengthInTicks": 5900,
+    "analogOutput": 0
+  }
+}

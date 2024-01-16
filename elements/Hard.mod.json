@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Hard",
+    "texture": "tayk",
+    "description": "Tay K",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:hard2"
+    },
+    "lengthInTicks": 2000,
+    "analogOutput": 0
+  }
+}

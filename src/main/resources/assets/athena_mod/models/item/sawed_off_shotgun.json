@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/sawedoffshotgun",
+  "textures": {
+    "0": "athena_mod:block/assaultpistoltexture",
+    "particle": "athena_mod:item/mc_smg"
+  }
+}

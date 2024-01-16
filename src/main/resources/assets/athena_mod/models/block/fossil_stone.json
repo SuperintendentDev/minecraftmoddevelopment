@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "athena_mod:block/fossilstone",
+    "up": "athena_mod:block/fossilstone",
+    "north": "athena_mod:block/fossilstone",
+    "east": "athena_mod:block/fossilstone",
+    "south": "athena_mod:block/fossilstone",
+    "west": "athena_mod:block/fossilstone",
+    "particle": "athena_mod:block/fossilstone"
+  },
+  "render_type": "solid"
+}

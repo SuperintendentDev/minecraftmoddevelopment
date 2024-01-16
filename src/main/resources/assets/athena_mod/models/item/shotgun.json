@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/shotgun",
+  "textures": {
+    "0": "athena_mod:block/shotguntexture2",
+    "particle": "athena_mod:item/mc_smg"
+  }
+}

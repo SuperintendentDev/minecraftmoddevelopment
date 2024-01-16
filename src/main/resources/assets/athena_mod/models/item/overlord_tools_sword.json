@@ -1,0 +1,7 @@
+{
+  "parent": "athena_mod:custom/overlordsword",
+  "textures": {
+    "0": "athena_mod:block/overlordswordtexture",
+    "particle": "athena_mod:item/overlordtools_sword"
+  }
+}
