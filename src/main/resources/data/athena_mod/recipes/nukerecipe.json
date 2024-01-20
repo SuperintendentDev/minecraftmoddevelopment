@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "athena_mod:steel_block"
     },
-    "1": {
-      "item": "athena_mod:steel_block"
-    },
-    "2": {
-      "item": "athena_mod:steel_block"
-    },
-    "3": {
-      "item": "athena_mod:steel_block"
-    },
-    "4": {
+    "b": {
       "item": "athena_mod:nuclear_warhead"
-    },
-    "5": {
-      "item": "athena_mod:steel_block"
-    },
-    "6": {
-      "item": "athena_mod:steel_block"
-    },
-    "7": {
-      "item": "athena_mod:steel_block"
-    },
-    "8": {
-      "item": "athena_mod:steel_block"
     }
   },
   "result": {

@@ -19,6 +19,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.Monster;
@@ -41,7 +42,6 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
@@ -54,6 +54,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.athenamod.procedures.UfoOnEntityTickUpdateProcedure;
@@ -316,6 +317,19 @@ public class UfoEntity extends Monster implements RangedAttackMob, GeoEntity {
 	}
 
 	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putString("Texture", this.getTexture());
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Texture"))
+			this.setTexture(compound.getString("Texture"));
+	}
+
+	@Override
 	public void baseTick() {
 		super.baseTick();
 		UfoOnEntityTickUpdateProcedure.execute(this);
@@ -329,7 +343,12 @@ public class UfoEntity extends Monster implements RangedAttackMob, GeoEntity {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		RaygunEntity.shoot(this, target);
+		Arrow entityarrow = new Arrow(this.level(), this);
+		double d0 = target.getY() + target.getEyeHeight() - 1.1;
+		double d1 = target.getX() - this.getX();
+		double d3 = target.getZ() - this.getZ();
+		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
+		this.level().addFreshEntity(entityarrow);
 	}
 
 	@Override
@@ -377,29 +396,14 @@ public class UfoEntity extends Monster implements RangedAttackMob, GeoEntity {
 	}
 
 	private PlayState procedurePredicate(AnimationState event) {
-		Entity entity = this;
-		Level world = entity.level();
-		boolean loop = false;
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-		if (!loop && this.lastloop) {
-			this.lastloop = false;
+		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
-			event.getController().forceAnimationReset();
-			return PlayState.STOP;
-		}
-		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-			if (!loop) {
-				event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
-				if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-					this.animationprocedure = "empty";
-					event.getController().forceAnimationReset();
-				}
-			} else {
-				event.getController().setAnimation(RawAnimation.begin().thenLoop(this.animationprocedure));
-				this.lastloop = true;
+			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+				this.animationprocedure = "empty";
+				event.getController().forceAnimationReset();
 			}
+		} else if (animationprocedure.equals("empty")) {
+			return PlayState.STOP;
 		}
 		return PlayState.CONTINUE;
 	}

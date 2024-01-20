@@ -1,15 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "musicdisc",
   "definition": {
     "name": "Dont Like",
+    "rarity": "RARE",
     "texture": "chiefkeefcover",
     "description": "chiefkeef",
     "creativeTab": {
       "value": "TOOLS"
     },
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "music": {
       "value": "CUSTOM:dontlike"
     },

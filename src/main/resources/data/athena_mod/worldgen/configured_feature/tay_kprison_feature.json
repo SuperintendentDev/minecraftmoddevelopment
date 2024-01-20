@@ -1,0 +1,7 @@
+{
+  "type": "athena_mod:structure_feature",
+  "config": {
+    "structure": "athena_mod:taykprison",
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

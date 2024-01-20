@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "athena_mod:zilla_spine"
     },
-    "1": {
-      "item": "athena_mod:zilla_spine"
-    },
-    "2": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

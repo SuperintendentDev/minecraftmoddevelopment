@@ -1,5 +1,5 @@
 {
-  "type": "athena_mod:yellow_flower",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 6,
     "feature": {

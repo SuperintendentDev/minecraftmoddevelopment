@@ -1,0 +1,61 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "stone_beach"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "stony_peaks"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "snowy_tundra"
+      }
+    ],
+    "featurexml": "<xml><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\">\n<value name=\"feature\"><block type=\"feature_custom_structure\">\n\t<field name=\"structure\">dragondungeon</field>\n\t<field name=\"x\">0</field>\n\t<field name=\"y\">-41</field>\n\t<field name=\"z\">0</field>\n\t<field name=\"random_rotation\">TRUE</field>\n\t<field name=\"random_mirror\">TRUE</field>\n\t<value name=\"ignored_blocks\">\n\t\t<block type=\"block_holderset_list\"><mutation inputs=\"1\"></mutation><field name=\"block0\">Blocks.STRUCTURE_BLOCK</field></block>\n\t</value>\n</block>\n</value>\n<next><block type=\"placement_rarity\">\n\t<field name=\"rarity\">3333</field>\n\t<next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\">\n\t<field name=\"heightmap\">OCEAN_FLOOR_WG</field>\n\t<next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></xml>\n"
+  }
+}

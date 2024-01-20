@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:NuclearBomb"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:rocket"
+    },
+    "igniteFire": false,
+    "power": 3.5,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Modelrocket",
+    "customModelTexture": "rocketproj.png",
+    "onHitsBlock": {
+      "name": "NukeLauncherProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "NukeLauncherProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "NukeLauncherProjectileHitsBlock"
+    },
+    "onFlyingTick": {
+      "name": "RocketLauncherWhileProjectileFlyingTick"
+    }
+  }
+}

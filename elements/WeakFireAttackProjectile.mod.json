@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Nothing"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "igniteFire": true,
+    "power": 3.0,
+    "damage": 2.0,
+    "knockback": 2,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onFlyingTick": {
+      "name": "FireAttackWhileProjectileFlyingTick"
+    }
+  }
+}

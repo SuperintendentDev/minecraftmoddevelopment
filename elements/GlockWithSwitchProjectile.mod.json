@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Bullet"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:autogunshot"
+    },
+    "igniteFire": false,
+    "power": 4.0,
+    "damage": 1.5,
+    "knockback": 1,
+    "entityModel": "ModelBullet",
+    "customModelTexture": "bulletmodeltexture.png"
+  }
+}

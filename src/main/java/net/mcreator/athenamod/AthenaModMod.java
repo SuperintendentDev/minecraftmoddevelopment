@@ -29,13 +29,13 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.athenamod.world.features.StructureFeature;
 import net.mcreator.athenamod.init.AthenaModModTabs;
 import net.mcreator.athenamod.init.AthenaModModSounds;
 import net.mcreator.athenamod.init.AthenaModModParticleTypes;
 import net.mcreator.athenamod.init.AthenaModModMobEffects;
 import net.mcreator.athenamod.init.AthenaModModMenus;
 import net.mcreator.athenamod.init.AthenaModModItems;
-import net.mcreator.athenamod.init.AthenaModModFeatures;
 import net.mcreator.athenamod.init.AthenaModModEntities;
 import net.mcreator.athenamod.init.AthenaModModBlocks;
 import net.mcreator.athenamod.init.AthenaModModBlockEntities;
@@ -64,7 +64,8 @@ public class AthenaModMod {
 		AthenaModModEntities.REGISTRY.register(bus);
 
 		AthenaModModTabs.REGISTRY.register(bus);
-		AthenaModModFeatures.REGISTRY.register(bus);
+
+		StructureFeature.REGISTRY.register(bus);
 		AthenaModModMobEffects.REGISTRY.register(bus);
 
 		AthenaModModParticleTypes.REGISTRY.register(bus);

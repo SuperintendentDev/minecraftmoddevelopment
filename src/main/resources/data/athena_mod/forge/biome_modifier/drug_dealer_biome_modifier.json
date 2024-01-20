@@ -1,21 +1,21 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "mushroom_fields",
-    "savanna_plateau",
-    "forest",
-    "stony_shore",
-    "deep_dark",
-    "sparse_jungle",
-    "mangrove_swamp",
-    "swamp",
     "athena_mod:city",
     "dark_forest",
+    "deep_dark",
+    "desert",
+    "forest",
+    "jungle",
+    "mangrove_swamp",
+    "mushroom_fields",
     "plains",
     "savanna",
+    "savanna_plateau",
+    "sparse_jungle",
     "stony_peaks",
-    "jungle",
-    "desert"
+    "stony_shore",
+    "swamp"
   ],
   "spawners": {
     "type": "athena_mod:drug_dealer",

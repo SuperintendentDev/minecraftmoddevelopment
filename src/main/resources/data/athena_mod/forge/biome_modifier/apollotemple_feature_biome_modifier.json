@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "desert",
+    "badlands"
+  ],
+  "features": "athena_mod:apollotemple_feature",
+  "step": "surface_structures"
+}

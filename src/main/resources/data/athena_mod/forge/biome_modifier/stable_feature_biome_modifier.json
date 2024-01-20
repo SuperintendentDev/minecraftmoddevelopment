@@ -1,0 +1,25 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "beach",
+    "birch_forest",
+    "cherry_grove",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "meadow",
+    "old_growth_birch_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "plains",
+    "savanna",
+    "savanna_plateau",
+    "snowy_plains",
+    "snowy_taiga",
+    "sparse_jungle",
+    "sunflower_plains",
+    "taiga"
+  ],
+  "features": "athena_mod:stable_feature",
+  "step": "surface_structures"
+}

@@ -2,20 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "  5"
+    "aaa",
+    "  a"
   ],
   "key": {
-    "0": {
-      "tag": "minecraft:logs"
-    },
-    "1": {
-      "tag": "minecraft:logs"
-    },
-    "2": {
-      "tag": "minecraft:logs"
-    },
-    "5": {
+    "a": {
       "tag": "minecraft:logs"
     }
   },

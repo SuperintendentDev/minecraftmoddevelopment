@@ -7,9 +7,12 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
@@ -35,9 +38,7 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.athenamod.init.AthenaModModItems;
 import net.mcreator.athenamod.init.AthenaModModEntities;
 
-import java.util.List;
-
-public class ChiefKeefEntity extends Animal {
+public class ChiefKeefEntity extends Animal implements RangedAttackMob {
 	public ChiefKeefEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AthenaModModEntities.CHIEF_KEEF.get(), world);
 	}
@@ -68,6 +69,12 @@ public class ChiefKeefEntity extends Animal {
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
+			@Override
+			public boolean canContinueToUse() {
+				return this.canUse();
+			}
+		});
 	}
 
 	@Override
@@ -101,6 +108,11 @@ public class ChiefKeefEntity extends Animal {
 	}
 
 	@Override
+	public void performRangedAttack(LivingEntity target, float flval) {
+		PistolProjectileEntity.shoot(this, target);
+	}
+
+	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
 		ChiefKeefEntity retval = AthenaModModEntities.CHIEF_KEEF.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
@@ -109,7 +121,7 @@ public class ChiefKeefEntity extends Animal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of().contains(stack.getItem());
+		return Ingredient.of().test(stack);
 	}
 
 	public static void init() {

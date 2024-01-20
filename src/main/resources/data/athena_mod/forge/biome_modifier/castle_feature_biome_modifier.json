@@ -1,0 +1,24 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "dark_forest",
+    "desert",
+    "forest",
+    "jungle",
+    "flower_forest",
+    "meadow",
+    "plains",
+    "savanna",
+    "stony_shore",
+    "windswept_hills",
+    "old_growth_spruce_taiga",
+    "old_growth_birch_forest",
+    "windswept_forest",
+    "savanna_plateau",
+    "stony_peaks",
+    "birch_forest",
+    "snowy_plains"
+  ],
+  "features": "athena_mod:castle_feature",
+  "step": "surface_structures"
+}

@@ -1,13 +1,13 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "old_growth_birch_forest",
-    "forest",
-    "dark_forest",
-    "taiga",
-    "old_growth_pine_taiga",
     "birch_forest",
+    "dark_forest",
     "flower_forest",
+    "forest",
+    "taiga",
+    "old_growth_birch_forest",
+    "old_growth_pine_taiga",
     "old_growth_spruce_taiga"
   ],
   "spawners": {

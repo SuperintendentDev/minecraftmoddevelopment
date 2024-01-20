@@ -107,13 +107,9 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> LUNAR_SOIL = block(AthenaModModBlocks.LUNAR_SOIL);
 	public static final RegistryObject<Item> MOON_ROCK = block(AthenaModModBlocks.MOON_ROCK);
 	public static final RegistryObject<Item> ALIEN_SPAWN_EGG = REGISTRY.register("alien_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ALIEN, -10896839, -6843501, new Item.Properties()));
-	public static final RegistryObject<Item> SUB_MACHINE_GUN = REGISTRY.register("sub_machine_gun", () -> new SubMachineGunItem());
-	public static final RegistryObject<Item> RAYGUN = REGISTRY.register("raygun", () -> new RaygunItem());
 	public static final RegistryObject<Item> LASER = REGISTRY.register("laser", () -> new LaserItem());
 	public static final RegistryObject<Item> BULLET = REGISTRY.register("bullet", () -> new BulletItem());
-	public static final RegistryObject<Item> ASSAULT_RIFLE = REGISTRY.register("assault_rifle", () -> new AssaultRifleItem());
 	public static final RegistryObject<Item> RIFLE_BULLET = REGISTRY.register("rifle_bullet", () -> new RifleBulletItem());
-	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
 	public static final RegistryObject<Item> RECIEVER = REGISTRY.register("reciever", () -> new RecieverItem());
 	public static final RegistryObject<Item> GUN_BARREL = REGISTRY.register("gun_barrel", () -> new GunBarrelItem());
 	public static final RegistryObject<Item> LONG_GUN_BARREL = REGISTRY.register("long_gun_barrel", () -> new LongGunBarrelItem());
@@ -121,15 +117,12 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> STEEL_BLOCK = block(AthenaModModBlocks.STEEL_BLOCK);
 	public static final RegistryObject<Item> WOOD_GUN_STOCK = REGISTRY.register("wood_gun_stock", () -> new WoodGunStockItem());
 	public static final RegistryObject<Item> UFO_SPAWN_EGG = REGISTRY.register("ufo_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.UFO, -10921639, -5460820, new Item.Properties()));
-	public static final RegistryObject<Item> RIFLE = REGISTRY.register("rifle", () -> new RifleItem());
 	public static final RegistryObject<Item> FOSSIL_STONE = block(AthenaModModBlocks.FOSSIL_STONE);
-	public static final RegistryObject<Item> ROCKET_LAUNCHER = REGISTRY.register("rocket_launcher", () -> new RocketLauncherItem());
 	public static final RegistryObject<Item> ROCKET = REGISTRY.register("rocket", () -> new RocketItem());
 	public static final RegistryObject<Item> FOSSIL = REGISTRY.register("fossil", () -> new FossilItem());
 	public static final RegistryObject<Item> RESEARCH_TABLE = block(AthenaModModBlocks.RESEARCH_TABLE);
 	public static final RegistryObject<Item> CIVILIAN_SPAWN_EGG = REGISTRY.register("civilian_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.CIVILIAN, -11843769, -8423047, new Item.Properties()));
 	public static final RegistryObject<Item> ZILLA_SPAWN_EGG = REGISTRY.register("zilla_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ZILLA, -14140119, -15591149, new Item.Properties()));
-	public static final RegistryObject<Item> ZILLA_BEAM = REGISTRY.register("zilla_beam", () -> new ZillaBeamItem());
 	public static final RegistryObject<Item> ZILLA_SPINE = REGISTRY.register("zilla_spine", () -> new ZillaSpineItem());
 	public static final RegistryObject<Item> ZILLA_SWORD = REGISTRY.register("zilla_sword", () -> new ZillaSwordItem());
 	public static final RegistryObject<Item> PRINCE_SPAWN_EGG = REGISTRY.register("prince_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.PRINCE, -16777216, -16764109, new Item.Properties()));
@@ -161,7 +154,6 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> THOT_SPAWN_EGG = REGISTRY.register("thot_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.THOT, -3593943, -1461104, new Item.Properties()));
 	public static final RegistryObject<Item> SPEEDSTER_SPAWN_EGG = REGISTRY.register("speedster_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.SPEEDSTER, -14142007, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> WIZARD_SPAWN_EGG = REGISTRY.register("wizard_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.WIZARD, -13429538, -863201, new Item.Properties()));
-	public static final RegistryObject<Item> FIRE_ATTACK = REGISTRY.register("fire_attack", () -> new FireAttackItem());
 	public static final RegistryObject<Item> ROSE = block(AthenaModModBlocks.ROSE);
 	public static final RegistryObject<Item> FORGOTTEN_LANDS = REGISTRY.register("forgotten_lands", () -> new ForgottenLandsItem());
 	public static final RegistryObject<Item> OLD_LEAVES = block(AthenaModModBlocks.OLD_LEAVES);
@@ -180,7 +172,6 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> OVERLORD_TOOLS_SHOVEL = REGISTRY.register("overlord_tools_shovel", () -> new OverlordToolsShovelItem());
 	public static final RegistryObject<Item> OVERLORD_TOOLS_HOE = REGISTRY.register("overlord_tools_hoe", () -> new OverlordToolsHoeItem());
 	public static final RegistryObject<Item> RAPTOR_SPAWN_EGG = REGISTRY.register("raptor_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.RAPTOR, -3842018, -7974123, new Item.Properties()));
-	public static final RegistryObject<Item> REVOLVER = REGISTRY.register("revolver", () -> new RevolverItem());
 	public static final RegistryObject<Item> STEEL_PICKAXE = REGISTRY.register("steel_pickaxe", () -> new SteelPickaxeItem());
 	public static final RegistryObject<Item> STEEL_AXE = REGISTRY.register("steel_axe", () -> new SteelAxeItem());
 	public static final RegistryObject<Item> STEEL_SWORD = REGISTRY.register("steel_sword", () -> new SteelSwordItem());
@@ -197,13 +188,11 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> GOBLIN_SPAWN_EGG = REGISTRY.register("goblin_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.GOBLIN, -10066432, -13421824, new Item.Properties()));
 	public static final RegistryObject<Item> KNIGHT_SPAWN_EGG = REGISTRY.register("knight_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.KNIGHT, -1924483, -9671052, new Item.Properties()));
 	public static final RegistryObject<Item> IMP_SPAWN_EGG = REGISTRY.register("imp_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.IMP, -3650227, -6796983, new Item.Properties()));
-	public static final RegistryObject<Item> WEAK_FIRE_ATTACK = REGISTRY.register("weak_fire_attack", () -> new WeakFireAttackItem());
 	public static final RegistryObject<Item> EVIL_KNIGHT_SPAWN_EGG = REGISTRY.register("evil_knight_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.EVIL_KNIGHT, -1924483, -12500412, new Item.Properties()));
 	public static final RegistryObject<Item> LUMBERJACK_SPAWN_EGG = REGISTRY.register("lumberjack_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.LUMBERJACK, -4700345, -1793689, new Item.Properties()));
 	public static final RegistryObject<Item> CHIEF_KEEF_SPAWN_EGG = REGISTRY.register("chief_keef_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.CHIEF_KEEF, -11589109, -13736275, new Item.Properties()));
 	public static final RegistryObject<Item> DONT_LIKE = REGISTRY.register("dont_like", () -> new DontLikeItem());
 	public static final RegistryObject<Item> NOTHING = REGISTRY.register("nothing", () -> new NothingItem());
-	public static final RegistryObject<Item> GLOCK_WITH_SWITCH = REGISTRY.register("glock_with_switch", () -> new GlockWithSwitchItem());
 	public static final RegistryObject<Item> GLOCK_SWITCH = REGISTRY.register("glock_switch", () -> new GlockSwitchItem());
 	public static final RegistryObject<Item> BRONTOSAURUS_SPAWN_EGG = REGISTRY.register("brontosaurus_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.BRONTOSAURUS, -6383729, -10725550, new Item.Properties()));
 	public static final RegistryObject<Item> DEMON_SPAWN_EGG = REGISTRY.register("demon_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.DEMON, -4109750, -7453371, new Item.Properties()));
@@ -220,11 +209,8 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> ANOLE_SPAWN_EGG = REGISTRY.register("anole_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ANOLE, -6724096, -6711040, new Item.Properties()));
 	public static final RegistryObject<Item> SATANIC_PENTAGRAM = block(AthenaModModBlocks.SATANIC_PENTAGRAM);
 	public static final RegistryObject<Item> SATANIC_BASE = block(AthenaModModBlocks.SATANIC_BASE);
-	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
 	public static final RegistryObject<Item> SHOTGUN_SHELL = REGISTRY.register("shotgun_shell", () -> new ShotgunShellItem());
 	public static final RegistryObject<Item> ALIEN_TECH = REGISTRY.register("alien_tech", () -> new AlienTechItem());
-	public static final RegistryObject<Item> ASSAULT_PISTOL = REGISTRY.register("assault_pistol", () -> new AssaultPistolItem());
-	public static final RegistryObject<Item> SAWED_OFF_SHOTGUN = REGISTRY.register("sawed_off_shotgun", () -> new SawedOffShotgunItem());
 	public static final RegistryObject<Item> FALLEN_ANGEL_BLOOD = REGISTRY.register("fallen_angel_blood", () -> new FallenAngelBloodItem());
 	public static final RegistryObject<Item> TRUMP_SPAWN_EGG = REGISTRY.register("trump_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.TRUMP, -26368, -205, new Item.Properties()));
 	public static final RegistryObject<Item> OBAMA_SPAWN_EGG = REGISTRY.register("obama_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.OBAMA, -10994927, -14609402, new Item.Properties()));
@@ -236,7 +222,6 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> TYLER_THE_CREATOR_SPAWN_EGG = REGISTRY.register("tyler_the_creator_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.TYLER_THE_CREATOR, -16168124, -13296376, new Item.Properties()));
 	public static final RegistryObject<Item> TREEHOME_95 = REGISTRY.register("treehome_95", () -> new Treehome95Item());
 	public static final RegistryObject<Item> CHRIS_CHAN_SPAWN_EGG = REGISTRY.register("chris_chan_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.CHRIS_CHAN, -3199185, -14669599, new Item.Properties()));
-	public static final RegistryObject<Item> BIBLE = REGISTRY.register("bible", () -> new BibleItem());
 	public static final RegistryObject<Item> CROSS = REGISTRY.register("cross", () -> new CrossItem());
 	public static final RegistryObject<Item> GOLDEN_WOOL = block(AthenaModModBlocks.GOLDEN_WOOL);
 	public static final RegistryObject<Item> WOOLYSHEEP_SPAWN_EGG = REGISTRY.register("woolysheep_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.WOOLYSHEEP, -803566, -995917, new Item.Properties()));
@@ -260,9 +245,24 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> DARK_DRAGON_SPAWN_EGG = REGISTRY.register("dark_dragon_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.DARK_DRAGON, -13434829, -10092442, new Item.Properties()));
 	public static final RegistryObject<Item> DAWN_BLADE = REGISTRY.register("dawn_blade", () -> new DawnBladeItem());
 	public static final RegistryObject<Item> DAWNBLADEINSTONE = block(AthenaModModBlocks.DAWNBLADEINSTONE);
+	public static final RegistryObject<Item> TESTITEM = REGISTRY.register("testitem", () -> new TestitemItem());
+	public static final RegistryObject<Item> SUB_MACHINE_GUN = REGISTRY.register("sub_machine_gun", () -> new SubMachineGunItem());
+	public static final RegistryObject<Item> RAYGUN = REGISTRY.register("raygun", () -> new RaygunItem());
+	public static final RegistryObject<Item> ASSAULT_RIFLE = REGISTRY.register("assault_rifle", () -> new AssaultRifleItem());
+	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
+	public static final RegistryObject<Item> RIFLE = REGISTRY.register("rifle", () -> new RifleItem());
+	public static final RegistryObject<Item> ROCKET_LAUNCHER = REGISTRY.register("rocket_launcher", () -> new RocketLauncherItem());
+	public static final RegistryObject<Item> ZILLA_BEAM = REGISTRY.register("zilla_beam", () -> new ZillaBeamItem());
+	public static final RegistryObject<Item> FIRE_ATTACK = REGISTRY.register("fire_attack", () -> new FireAttackItem());
+	public static final RegistryObject<Item> REVOLVER = REGISTRY.register("revolver", () -> new RevolverItem());
+	public static final RegistryObject<Item> WEAK_FIRE_ATTACK = REGISTRY.register("weak_fire_attack", () -> new WeakFireAttackItem());
+	public static final RegistryObject<Item> GLOCK_WITH_SWITCH = REGISTRY.register("glock_with_switch", () -> new GlockWithSwitchItem());
+	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
+	public static final RegistryObject<Item> ASSAULT_PISTOL = REGISTRY.register("assault_pistol", () -> new AssaultPistolItem());
+	public static final RegistryObject<Item> SAWED_OFF_SHOTGUN = REGISTRY.register("sawed_off_shotgun", () -> new SawedOffShotgunItem());
+	public static final RegistryObject<Item> BIBLE = REGISTRY.register("bible", () -> new BibleItem());
 	public static final RegistryObject<Item> AETHERSWORD = REGISTRY.register("aethersword", () -> new AetherswordItem());
 	public static final RegistryObject<Item> NUKE_LAUNCHER = REGISTRY.register("nuke_launcher", () -> new NukeLauncherItem());
-	public static final RegistryObject<Item> TESTITEM = REGISTRY.register("testitem", () -> new TestitemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

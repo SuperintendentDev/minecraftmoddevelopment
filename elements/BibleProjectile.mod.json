@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Cross"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:bibleused"
+    },
+    "igniteFire": false,
+    "power": 1.5,
+    "damage": 15.0,
+    "knockback": 2,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onFlyingTick": {
+      "name": "BibleWhileProjectileFlyingTick"
+    }
+  }
+}

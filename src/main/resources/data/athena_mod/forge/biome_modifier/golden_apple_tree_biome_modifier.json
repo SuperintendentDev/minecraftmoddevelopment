@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "athena_mod:heaven_plains",
-  "features": "athena_mod:golden_apple_tree",
-  "step": "surface_structures"
-}

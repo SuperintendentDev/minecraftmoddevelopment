@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Brontosaurus",
@@ -12,6 +12,7 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
+    "entityDataEntries": [],
     "modelWidth": 2.5,
     "modelHeight": 4.0,
     "modelShadowSize": 3.0,

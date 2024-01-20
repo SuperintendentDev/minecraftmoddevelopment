@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 1,
+    "blockingRenderType": 0,
     "texture": "key",
     "customModelName": "dawnblade:default",
+    "blockingModelName": "Normal blocking",
     "name": "Dawn Blade",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 15.0,
     "usageCount": 1500,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

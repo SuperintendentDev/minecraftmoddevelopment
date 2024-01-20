@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Terrorist",
@@ -12,6 +12,7 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
+    "entityDataEntries": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -136,7 +137,7 @@
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "Pistol",
+    "rangedItemType": "PistolProjectile",
     "rangedAttackInterval": 10,
     "rangedAttackRadius": 30.0,
     "height": 1.0,

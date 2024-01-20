@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.2')
+  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.3')
 }
 
 minecraft {
@@ -23,7 +23,6 @@ minecraft {
         property 'mixin.env.remapRefMap', 'true'
         property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
     }
-
       server {
         property 'mixin.env.remapRefMap', 'true'
         property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
@@ -34,4 +33,5 @@ minecraft {
     }
   }
 }
+
 

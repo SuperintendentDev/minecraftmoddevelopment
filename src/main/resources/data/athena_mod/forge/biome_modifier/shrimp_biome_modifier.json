@@ -1,17 +1,17 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
+    "cold_ocean",
     "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean",
     "frozen_ocean",
-    "warm_ocean",
-    "frozen_river",
     "lukewarm_ocean",
     "ocean",
-    "deep_lukewarm_ocean",
-    "cold_ocean",
-    "river",
-    "deep_ocean",
-    "deep_frozen_ocean"
+    "warm_ocean",
+    "frozen_river",
+    "river"
   ],
   "spawners": {
     "type": "athena_mod:shrimp",

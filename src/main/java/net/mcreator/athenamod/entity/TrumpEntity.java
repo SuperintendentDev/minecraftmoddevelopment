@@ -7,6 +7,7 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
@@ -32,8 +33,6 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.athenamod.init.AthenaModModEntities;
-
-import java.util.List;
 
 public class TrumpEntity extends Animal {
 	public TrumpEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -101,7 +100,7 @@ public class TrumpEntity extends Animal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of().contains(stack.getItem());
+		return Ingredient.of().test(stack);
 	}
 
 	public static void init() {

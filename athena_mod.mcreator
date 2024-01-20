@@ -122,40 +122,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "Apollotemple",
-      "type": "structure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apollotemple",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/world/features/ApollotempleFeature.java",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/apollotemple_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/apollotemple.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/apollotemple.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Castle",
-      "type": "structure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "castle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/world/features/CastleFeature.java",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/castle_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/castle.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/castle.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
       "name": "Moon",
       "type": "dimension",
       "sortid": 11,
@@ -364,38 +330,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "SubMachineGun",
-      "type": "rangeditem",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "sub_machine_gun",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/item/SubMachineGunItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/SubMachineGunEntity.java",
-          "src/main/resources/assets/athena_mod/models/item/sub_machine_gun.json"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
-      "name": "Raygun",
-      "type": "rangeditem",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raygun",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/raygun.json",
-          "src/main/java/net/mcreator/athenamod/item/RaygunItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/RaygunEntity.java"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "Laser",
       "type": "item",
       "sortid": 26,
@@ -440,22 +374,6 @@
       "path": "~/recipes"
     },
     {
-      "name": "AssaultRifle",
-      "type": "rangeditem",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "assault_rifle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/item/AssaultRifleItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/AssaultRifleEntity.java",
-          "src/main/resources/assets/athena_mod/models/item/assault_rifle.json"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "RifleBullet",
       "type": "item",
       "sortid": 30,
@@ -483,22 +401,6 @@
         ]
       },
       "path": "~/recipes"
-    },
-    {
-      "name": "Pistol",
-      "type": "rangeditem",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "pistol",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/entity/PistolEntity.java",
-          "src/main/resources/assets/athena_mod/models/item/pistol.json",
-          "src/main/java/net/mcreator/athenamod/item/PistolItem.java"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "Reciever",
@@ -788,22 +690,6 @@
       "path": "~/recipes"
     },
     {
-      "name": "Rifle",
-      "type": "rangeditem",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "rifle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/rifle.json",
-          "src/main/java/net/mcreator/athenamod/item/RifleItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/RifleEntity.java"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "Riflerecipe",
       "type": "recipe",
       "sortid": 52,
@@ -831,7 +717,6 @@
           "src/main/resources/assets/athena_mod/models/block/fossil_stone.json",
           "src/main/java/net/mcreator/athenamod/block/FossilStoneBlock.java",
           "src/main/resources/assets/athena_mod/models/item/fossil_stone.json",
-          "src/main/java/net/mcreator/athenamod/world/features/ores/FossilStoneFeature.java",
           "src/main/resources/data/athena_mod/worldgen/placed_feature/fossil_stone.json",
           "src/main/resources/assets/athena_mod/blockstates/fossil_stone.json"
         ]
@@ -869,23 +754,6 @@
         ]
       },
       "path": "~/procedures"
-    },
-    {
-      "name": "RocketLauncher",
-      "type": "rangeditem",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "rocket_launcher",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/client/renderer/RocketLauncherRenderer.java",
-          "src/main/resources/assets/athena_mod/models/item/rocket_launcher.json",
-          "src/main/java/net/mcreator/athenamod/entity/RocketLauncherEntity.java",
-          "src/main/java/net/mcreator/athenamod/item/RocketLauncherItem.java"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "RocketLauncherRangedItemUsed",
@@ -930,22 +798,6 @@
           {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -1127,23 +979,6 @@
       "path": "~/dimensionsandbiomes"
     },
     {
-      "name": "Skyscraper1",
-      "type": "structure",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skyscraper_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/skyscraper_1.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/skyscraper_1_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/skyscraper_1.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Skyscraper1Feature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
       "name": "Civilian",
       "type": "livingentity",
       "sortid": 69,
@@ -1192,22 +1027,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "ZillaBeam",
-      "type": "rangeditem",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zilla_beam",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/zilla_beam.json",
-          "src/main/java/net/mcreator/athenamod/item/ZillaBeamItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/ZillaBeamEntity.java"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "ZillaBeamWhileProjectileFlyingTick",
@@ -1610,7 +1429,6 @@
       "registry_name": "titanium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/athenamod/world/features/ores/TitaniumOreFeature.java",
           "src/main/resources/assets/athena_mod/models/block/titanium_ore.json",
           "src/main/resources/data/athena_mod/forge/biome_modifier/titanium_ore_biome_modifier.json",
           "src/main/resources/data/athena_mod/worldgen/configured_feature/titanium_ore.json",
@@ -1748,7 +1566,6 @@
           "src/main/resources/assets/athena_mod/models/block/heaven_grass.json",
           "src/main/resources/data/athena_mod/worldgen/configured_feature/heaven_grass.json",
           "src/main/resources/assets/athena_mod/models/item/heaven_grass.json",
-          "src/main/java/net/mcreator/athenamod/world/features/plants/HeavenGrassFeature.java",
           "src/main/resources/assets/athena_mod/blockstates/heaven_grass.json"
         ]
       },
@@ -1797,7 +1614,6 @@
           "src/main/java/net/mcreator/athenamod/block/ChristaniumOreBlock.java",
           "src/main/resources/assets/athena_mod/models/block/christanium_ore.json",
           "src/main/resources/data/athena_mod/worldgen/placed_feature/christanium_ore.json",
-          "src/main/java/net/mcreator/athenamod/world/features/ores/ChristaniumOreFeature.java",
           "src/main/resources/assets/athena_mod/blockstates/christanium_ore.json",
           "src/main/resources/assets/athena_mod/models/item/christanium_ore.json"
         ]
@@ -1897,57 +1713,6 @@
         ]
       },
       "path": "~/procedures"
-    },
-    {
-      "name": "GoldenAppleTree",
-      "type": "structure",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golden_apple_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/golden_apple_tree.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/golden_apple_tree.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/golden_apple_tree_biome_modifier.json",
-          "src/main/java/net/mcreator/athenamod/world/features/GoldenAppleTreeFeature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "GodsTemple",
-      "type": "structure",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gods_temple",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/gods_temple_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/gods_temple.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/gods_temple.json",
-          "src/main/java/net/mcreator/athenamod/world/features/GodsTempleFeature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "HeavenLoot",
-      "type": "structure",
-      "sortid": 125,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heaven_loot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/world/features/HeavenLootFeature.java",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/heaven_loot.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/heaven_loot_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/heaven_loot.json"
-        ]
-      },
-      "path": "~/structures"
     },
     {
       "name": "GoldenLeaf",
@@ -2184,22 +1949,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "FireAttack",
-      "type": "rangeditem",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fire_attack",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/fire_attack.json",
-          "src/main/java/net/mcreator/athenamod/item/FireAttackItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/FireAttackEntity.java"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "Rose",
       "type": "plant",
       "sortid": 140,
@@ -2209,7 +1958,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/athenamod/block/RoseBlock.java",
-          "src/main/java/net/mcreator/athenamod/world/features/plants/RoseFeature.java",
           "src/main/resources/data/athena_mod/worldgen/configured_feature/rose.json",
           "src/main/resources/assets/athena_mod/models/item/rose.json",
           "src/main/resources/data/athena_mod/worldgen/placed_feature/rose.json",
@@ -2309,8 +2057,7 @@
           "src/main/resources/data/athena_mod/forge/biome_modifier/yellow_flower_biome_modifier.json",
           "src/main/resources/assets/athena_mod/blockstates/yellow_flower.json",
           "src/main/resources/data/athena_mod/worldgen/placed_feature/yellow_flower.json",
-          "src/main/java/net/mcreator/athenamod/block/YellowFlowerBlock.java",
-          "src/main/java/net/mcreator/athenamod/world/features/plants/YellowFlowerFeature.java"
+          "src/main/java/net/mcreator/athenamod/block/YellowFlowerBlock.java"
         ]
       },
       "path": "~/items"
@@ -2564,22 +2311,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Revolver",
-      "type": "rangeditem",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "revolver",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/item/RevolverItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/RevolverEntity.java",
-          "src/main/resources/assets/athena_mod/models/item/revolver.json"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "Revolverrecipe",
@@ -3452,22 +3183,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "WeakFireAttack",
-      "type": "rangeditem",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weak_fire_attack",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/weak_fire_attack.json",
-          "src/main/java/net/mcreator/athenamod/item/WeakFireAttackItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/WeakFireAttackEntity.java"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "EvilKnight",
       "type": "livingentity",
       "sortid": 209,
@@ -3500,40 +3215,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Cabin",
-      "type": "structure",
-      "sortid": 211,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cabin",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/world/features/CabinFeature.java",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/cabin.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/cabin_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/cabin.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "WizardTower",
-      "type": "structure",
-      "sortid": 212,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wizard_tower",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/wizard_tower_biome_modifier.json",
-          "src/main/java/net/mcreator/athenamod/world/features/WizardTowerFeature.java",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/wizard_tower.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/wizard_tower.json"
-        ]
-      },
-      "path": "~/structures"
     },
     {
       "name": "TerroristEntityDies",
@@ -3610,22 +3291,6 @@
         "files": [
           "src/main/java/net/mcreator/athenamod/item/NothingItem.java",
           "src/main/resources/assets/athena_mod/models/item/nothing.json"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
-      "name": "GlockWithSwitch",
-      "type": "rangeditem",
-      "sortid": 217,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "glock_with_switch",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/glock_with_switch.json",
-          "src/main/java/net/mcreator/athenamod/entity/GlockWithSwitchEntity.java",
-          "src/main/java/net/mcreator/athenamod/item/GlockWithSwitchItem.java"
         ]
       },
       "path": "~/items"
@@ -3815,108 +3480,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "Well",
-      "type": "structure",
-      "sortid": 227,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "well",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/well_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/well.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/well.json",
-          "src/main/java/net/mcreator/athenamod/world/features/WellFeature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Overlord1",
-      "type": "structure",
-      "sortid": 229,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overlord_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/overlord_1_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/overlord_1.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Overlord1Feature.java",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/overlord_1.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Overlord2",
-      "type": "structure",
-      "sortid": 230,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overlord_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/overlord_2.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/overlord_2_biome_modifier.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Overlord2Feature.java",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/overlord_2.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Overlord3",
-      "type": "structure",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overlord_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/overlord_3.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Overlord3Feature.java",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/overlord_3_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/overlord_3.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Stable",
-      "type": "structure",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stable",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/stable_biome_modifier.json",
-          "src/main/java/net/mcreator/athenamod/world/features/StableFeature.java",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/stable.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/stable.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "TayKprison",
-      "type": "structure",
-      "sortid": 233,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tay_kprison",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/tay_kprison_biome_modifier.json",
-          "src/main/java/net/mcreator/athenamod/world/features/TayKprisonFeature.java",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/tay_kprison.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/tay_kprison.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
       "name": "SatanEntityDies",
       "type": "procedure",
       "sortid": 234,
@@ -3947,23 +3510,6 @@
         ]
       },
       "path": "~/procedures"
-    },
-    {
-      "name": "Cart1",
-      "type": "structure",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cart_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/cart_1.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/cart_1_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/cart_1.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Cart1Feature.java"
-        ]
-      },
-      "path": "~/structures"
     },
     {
       "name": "RockMonster",
@@ -4093,7 +3639,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/athena_mod/worldgen/placed_feature/powercrystals.json",
-          "src/main/java/net/mcreator/athenamod/world/features/PowercrystalsFeature.java",
           "src/main/resources/data/athena_mod/worldgen/configured_feature/powercrystals.json",
           "src/main/resources/data/athena_mod/forge/biome_modifier/powercrystals_biome_modifier.json"
         ]
@@ -4315,39 +3860,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "SatanicArena",
-      "type": "structure",
-      "sortid": 257,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "satanic_arena",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/satanic_arena.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/satanic_arena_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/satanic_arena.json",
-          "src/main/java/net/mcreator/athenamod/world/features/SatanicArenaFeature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Shotgun",
-      "type": "rangeditem",
-      "sortid": 258,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "shotgun",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/entity/ShotgunEntity.java",
-          "src/main/java/net/mcreator/athenamod/item/ShotgunItem.java",
-          "src/main/resources/assets/athena_mod/models/item/shotgun.json"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "ShotgunShell",
       "type": "item",
       "sortid": 259,
@@ -4460,38 +3972,6 @@
         ]
       },
       "path": "~/recipes"
-    },
-    {
-      "name": "AssaultPistol",
-      "type": "rangeditem",
-      "sortid": 265,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "assault_pistol",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/athena_mod/models/item/assault_pistol.json",
-          "src/main/java/net/mcreator/athenamod/item/AssaultPistolItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/AssaultPistolEntity.java"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
-      "name": "SawedOffShotgun",
-      "type": "rangeditem",
-      "sortid": 266,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "sawed_off_shotgun",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/item/SawedOffShotgunItem.java",
-          "src/main/resources/assets/athena_mod/models/item/sawed_off_shotgun.json",
-          "src/main/java/net/mcreator/athenamod/entity/SawedOffShotgunEntity.java"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "Aprecipe",
@@ -4667,23 +4147,6 @@
       "path": "~/items"
     },
     {
-      "name": "Saddamhusseinhideout",
-      "type": "structure",
-      "sortid": 278,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saddamhusseinhideout",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/saddamhusseinhideout.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/saddamhusseinhideout.json",
-          "src/main/java/net/mcreator/athenamod/world/features/SaddamhusseinhideoutFeature.java",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/saddamhusseinhideout_biome_modifier.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
       "name": "TylerTheCreator",
       "type": "livingentity",
       "sortid": 279,
@@ -4731,22 +4194,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Bible",
-      "type": "rangeditem",
-      "sortid": 282,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bible",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/item/BibleItem.java",
-          "src/main/java/net/mcreator/athenamod/entity/BibleEntity.java",
-          "src/main/resources/assets/athena_mod/models/item/bible.json"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "Cross",
@@ -5383,74 +4830,6 @@
       "path": "~/recipes"
     },
     {
-      "name": "KeyFort",
-      "type": "structure",
-      "sortid": 317,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "key_fort",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/key_fort_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/key_fort.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/key_fort.json",
-          "src/main/java/net/mcreator/athenamod/world/features/KeyFortFeature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Church",
-      "type": "structure",
-      "sortid": 321,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "church",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/world/features/ChurchFeature.java",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/church_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/church.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/church.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Heaventree1",
-      "type": "structure",
-      "sortid": 322,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heaventree_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/heaventree_1.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/heaventree_1_biome_modifier.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Heaventree1Feature.java",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/heaventree_1.json"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
-      "name": "Heaventree2",
-      "type": "structure",
-      "sortid": 323,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heaventree_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/heaventree_2.json",
-          "src/main/resources/data/athena_mod/forge/biome_modifier/heaventree_2_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/heaventree_2.json",
-          "src/main/java/net/mcreator/athenamod/world/features/Heaventree2Feature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
       "name": "HeavenTempleMob",
       "type": "livingentity",
       "sortid": 324,
@@ -5500,23 +4879,6 @@
         ]
       },
       "path": "~/procedures"
-    },
-    {
-      "name": "Godtemplespawner",
-      "type": "structure",
-      "sortid": 326,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godtemplespawner",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/godtemplespawner_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/godtemplespawner.json",
-          "src/main/java/net/mcreator/athenamod/world/features/GodtemplespawnerFeature.java",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/godtemplespawner.json"
-        ]
-      },
-      "path": "~/structures"
     },
     {
       "name": "Playertickupdate",
@@ -5848,23 +5210,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "DragonDungeon",
-      "type": "structure",
-      "sortid": 343,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dragon_dungeon",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/forge/biome_modifier/dragon_dungeon_biome_modifier.json",
-          "src/main/resources/data/athena_mod/worldgen/configured_feature/dragon_dungeon.json",
-          "src/main/resources/data/athena_mod/worldgen/placed_feature/dragon_dungeon.json",
-          "src/main/java/net/mcreator/athenamod/world/features/DragonDungeonFeature.java"
-        ]
-      },
-      "path": "~/structures"
-    },
-    {
       "name": "AetherswordProjectileHitsLivingEntity",
       "type": "procedure",
       "sortid": 345,
@@ -5921,22 +5266,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "Aethersword",
-      "type": "rangeditem",
-      "sortid": 347,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aethersword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/item/AetherswordItem.java",
-          "src/main/resources/assets/athena_mod/models/item/aethersword.json",
-          "src/main/java/net/mcreator/athenamod/entity/AetherswordEntity.java"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
       "name": "Aetherswordrecipe",
       "type": "recipe",
       "sortid": 348,
@@ -5949,23 +5278,6 @@
         ]
       },
       "path": "~/recipes"
-    },
-    {
-      "name": "NukeLauncher",
-      "type": "rangeditem",
-      "sortid": 349,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nuke_launcher",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/entity/NukeLauncherEntity.java",
-          "src/main/resources/assets/athena_mod/models/item/nuke_launcher.json",
-          "src/main/java/net/mcreator/athenamod/client/renderer/NukeLauncherRenderer.java",
-          "src/main/java/net/mcreator/athenamod/item/NukeLauncherItem.java"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "NukeLauncherProjectileHitsBlock",
@@ -6024,6 +5336,1110 @@
         "files": [
           "src/main/java/net/mcreator/athenamod/item/TestitemItem.java",
           "src/main/resources/assets/athena_mod/models/item/testitem.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ApollotempleFeature",
+      "type": "feature",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apollotemple_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/apollotemple_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/apollotemple_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/apollotemple_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "CastleFeature",
+      "type": "feature",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castle_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/castle_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/castle_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/castle_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "SubMachineGunProjectile",
+      "type": "projectile",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_machine_gun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/client/renderer/SubMachineGunProjectileRenderer.java",
+          "src/main/java/net/mcreator/athenamod/entity/SubMachineGunProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SubMachineGun",
+      "type": "item",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sub_machine_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/SubMachineGunItem.java",
+          "src/main/resources/assets/athena_mod/models/item/sub_machine_gun.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RaygunProjectile",
+      "type": "projectile",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raygun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/RaygunProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Raygun",
+      "type": "item",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raygun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/raygun.json",
+          "src/main/java/net/mcreator/athenamod/item/RaygunItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AssaultRifleProjectile",
+      "type": "projectile",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/AssaultRifleProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/AssaultRifleProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AssaultRifle",
+      "type": "item",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "assault_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/AssaultRifleItem.java",
+          "src/main/resources/assets/athena_mod/models/item/assault_rifle.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PistolProjectile",
+      "type": "projectile",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/PistolProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/PistolProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Pistol",
+      "type": "item",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/pistol.json",
+          "src/main/java/net/mcreator/athenamod/item/PistolItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RifleProjectile",
+      "type": "projectile",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rifle_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/RifleProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/RifleProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Rifle",
+      "type": "item",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rifle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/rifle.json",
+          "src/main/java/net/mcreator/athenamod/item/RifleItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RocketLauncherProjectile",
+      "type": "projectile",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/RocketLauncherProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/RocketLauncherProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RocketLauncher",
+      "type": "item",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rocket_launcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/rocket_launcher.json",
+          "src/main/java/net/mcreator/athenamod/item/RocketLauncherItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Skyscraper1Feature",
+      "type": "feature",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyscraper_1_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/skyscraper_1_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/skyscraper_1_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/skyscraper_1_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "ZillaBeamProjectile",
+      "type": "projectile",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zilla_beam_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/ZillaBeamProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ZillaBeam",
+      "type": "item",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zilla_beam",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/zilla_beam.json",
+          "src/main/java/net/mcreator/athenamod/item/ZillaBeamItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GoldenAppleTreeFeature",
+      "type": "feature",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_apple_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/golden_apple_tree_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/golden_apple_tree_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/golden_apple_tree_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "GodsTempleFeature",
+      "type": "feature",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gods_temple_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/gods_temple_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/gods_temple_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/gods_temple_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "HeavenLootFeature",
+      "type": "feature",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_loot_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/heaven_loot_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/heaven_loot_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/heaven_loot_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "FireAttackProjectile",
+      "type": "projectile",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_attack_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/FireAttackProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "FireAttack",
+      "type": "item",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/fire_attack.json",
+          "src/main/java/net/mcreator/athenamod/item/FireAttackItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RevolverProjectile",
+      "type": "projectile",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/client/renderer/RevolverProjectileRenderer.java",
+          "src/main/java/net/mcreator/athenamod/entity/RevolverProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Revolver",
+      "type": "item",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "revolver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/RevolverItem.java",
+          "src/main/resources/assets/athena_mod/models/item/revolver.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "WeakFireAttackProjectile",
+      "type": "projectile",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_fire_attack_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/WeakFireAttackProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "WeakFireAttack",
+      "type": "item",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_fire_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/weak_fire_attack.json",
+          "src/main/java/net/mcreator/athenamod/item/WeakFireAttackItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CabinFeature",
+      "type": "feature",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabin_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/cabin_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/cabin_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/cabin_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "WizardTowerFeature",
+      "type": "feature",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_tower_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/wizard_tower_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/wizard_tower_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/wizard_tower_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "GlockWithSwitchProjectile",
+      "type": "projectile",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glock_with_switch_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/client/renderer/GlockWithSwitchProjectileRenderer.java",
+          "src/main/java/net/mcreator/athenamod/entity/GlockWithSwitchProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GlockWithSwitch",
+      "type": "item",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glock_with_switch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/glock_with_switch.json",
+          "src/main/java/net/mcreator/athenamod/item/GlockWithSwitchItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "WellFeature",
+      "type": "feature",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "well_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/well_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/well_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/well_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Overlord1Feature",
+      "type": "feature",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlord_1_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/overlord_1_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/overlord_1_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/overlord_1_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Overlord2Feature",
+      "type": "feature",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlord_2_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/overlord_2_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/overlord_2_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/overlord_2_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Overlord3Feature",
+      "type": "feature",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlord_3_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/overlord_3_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/overlord_3_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/overlord_3_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "StableFeature",
+      "type": "feature",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stable_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/stable_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/stable_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/stable_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "TayKprisonFeature",
+      "type": "feature",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tay_kprison_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/tay_kprison_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/tay_kprison_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/tay_kprison_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Cart1Feature",
+      "type": "feature",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cart_1_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/cart_1_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/cart_1_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/cart_1_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "SatanicArenaFeature",
+      "type": "feature",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satanic_arena_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/satanic_arena_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/satanic_arena_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/satanic_arena_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "ShotgunProjectile",
+      "type": "projectile",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/ShotgunProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/ShotgunProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Shotgun",
+      "type": "item",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shotgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/ShotgunItem.java",
+          "src/main/resources/assets/athena_mod/models/item/shotgun.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AssaultPistolProjectile",
+      "type": "projectile",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_pistol_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/AssaultPistolProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/AssaultPistolProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AssaultPistol",
+      "type": "item",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "assault_pistol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/assault_pistol.json",
+          "src/main/java/net/mcreator/athenamod/item/AssaultPistolItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SawedOffShotgunProjectile",
+      "type": "projectile",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawed_off_shotgun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/client/renderer/SawedOffShotgunProjectileRenderer.java",
+          "src/main/java/net/mcreator/athenamod/entity/SawedOffShotgunProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SawedOffShotgun",
+      "type": "item",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sawed_off_shotgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/SawedOffShotgunItem.java",
+          "src/main/resources/assets/athena_mod/models/item/sawed_off_shotgun.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SaddamhusseinhideoutFeature",
+      "type": "feature",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddamhusseinhideout_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/saddamhusseinhideout_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/saddamhusseinhideout_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/saddamhusseinhideout_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "BibleProjectile",
+      "type": "projectile",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bible_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/BibleProjectileEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Bible",
+      "type": "item",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bible",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/BibleItem.java",
+          "src/main/resources/assets/athena_mod/models/item/bible.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "KeyFortFeature",
+      "type": "feature",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_fort_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/key_fort_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/key_fort_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/key_fort_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "ChurchFeature",
+      "type": "feature",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "church_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/church_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/church_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/church_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Heaventree1Feature",
+      "type": "feature",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaventree_1_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/heaventree_1_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/heaventree_1_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/heaventree_1_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Heaventree2Feature",
+      "type": "feature",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaventree_2_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/heaventree_2_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/heaventree_2_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/heaventree_2_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "GodtemplespawnerFeature",
+      "type": "feature",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godtemplespawner_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/godtemplespawner_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/godtemplespawner_feature_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/godtemplespawner_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "DragonDungeonFeature",
+      "type": "feature",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_dungeon_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/dragon_dungeon_feature.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/dragon_dungeon_feature.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/dragon_dungeon_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "AetherswordProjectile",
+      "type": "projectile",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aethersword_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/AetherswordProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/AetherswordProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Aethersword",
+      "type": "item",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aethersword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/AetherswordItem.java",
+          "src/main/resources/assets/athena_mod/models/item/aethersword.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "NukeLauncherProjectile",
+      "type": "projectile",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_launcher_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/NukeLauncherProjectileEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/NukeLauncherProjectileRenderer.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "NukeLauncher",
+      "type": "item",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuke_launcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/athena_mod/models/item/nuke_launcher.json",
+          "src/main/java/net/mcreator/athenamod/item/NukeLauncherItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ShotgunRightclicked",
+      "type": "procedure",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/ShotgunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PistolCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_can_use_ranged_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/PistolCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BibleRightclicked",
+      "type": "procedure",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bible_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/BibleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AetherswordLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aethersword_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/AetherswordLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RaygunRightclicked",
+      "type": "procedure",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raygun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/RaygunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "FireAttackRightclicked",
+      "type": "procedure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_attack_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/FireAttackRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PistolRightclicked",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/PistolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
         ]
       },
       "path": "~/items"
@@ -7447,5 +7863,5 @@
     "modElementsPackage": "net.mcreator.athenamod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202300452316
 }

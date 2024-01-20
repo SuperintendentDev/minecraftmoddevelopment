@@ -17,10 +17,10 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.athenamod.entity.ZillaEntity;
-import net.mcreator.athenamod.entity.ZillaBeamEntity;
+import net.mcreator.athenamod.entity.ZillaBeamProjectileEntity;
 import net.mcreator.athenamod.entity.WoolysheepEntity;
 import net.mcreator.athenamod.entity.WizardEntity;
-import net.mcreator.athenamod.entity.WeakFireAttackEntity;
+import net.mcreator.athenamod.entity.WeakFireAttackProjectileEntity;
 import net.mcreator.athenamod.entity.UfoEntity;
 import net.mcreator.athenamod.entity.TyrannosaurusRexEntity;
 import net.mcreator.athenamod.entity.TylerTheCreatorEntity;
@@ -29,28 +29,28 @@ import net.mcreator.athenamod.entity.ThotEntity;
 import net.mcreator.athenamod.entity.TerroristEntity;
 import net.mcreator.athenamod.entity.TayKEntity;
 import net.mcreator.athenamod.entity.SusGuyEntity;
-import net.mcreator.athenamod.entity.SubMachineGunEntity;
+import net.mcreator.athenamod.entity.SubMachineGunProjectileEntity;
 import net.mcreator.athenamod.entity.SpeedsterEntity;
 import net.mcreator.athenamod.entity.SoldierEntity;
 import net.mcreator.athenamod.entity.SnailEntity;
 import net.mcreator.athenamod.entity.ShrimpEntity;
-import net.mcreator.athenamod.entity.ShotgunEntity;
+import net.mcreator.athenamod.entity.ShotgunProjectileEntity;
 import net.mcreator.athenamod.entity.ShearedsheepEntity;
-import net.mcreator.athenamod.entity.SawedOffShotgunEntity;
+import net.mcreator.athenamod.entity.SawedOffShotgunProjectileEntity;
 import net.mcreator.athenamod.entity.SatanEntity;
 import net.mcreator.athenamod.entity.SaddamhussienEntity;
-import net.mcreator.athenamod.entity.RocketLauncherEntity;
+import net.mcreator.athenamod.entity.RocketLauncherProjectileEntity;
 import net.mcreator.athenamod.entity.RockMonsterEntity;
 import net.mcreator.athenamod.entity.RobotEntity;
-import net.mcreator.athenamod.entity.RifleEntity;
-import net.mcreator.athenamod.entity.RevolverEntity;
-import net.mcreator.athenamod.entity.RaygunEntity;
+import net.mcreator.athenamod.entity.RifleProjectileEntity;
+import net.mcreator.athenamod.entity.RevolverProjectileEntity;
+import net.mcreator.athenamod.entity.RaygunProjectileEntity;
 import net.mcreator.athenamod.entity.RaptorEntity;
 import net.mcreator.athenamod.entity.PrinceEntity;
-import net.mcreator.athenamod.entity.PistolEntity;
+import net.mcreator.athenamod.entity.PistolProjectileEntity;
 import net.mcreator.athenamod.entity.PigEntity;
 import net.mcreator.athenamod.entity.ObamaEntity;
-import net.mcreator.athenamod.entity.NukeLauncherEntity;
+import net.mcreator.athenamod.entity.NukeLauncherProjectileEntity;
 import net.mcreator.athenamod.entity.NukeEntity;
 import net.mcreator.athenamod.entity.NerdEntity;
 import net.mcreator.athenamod.entity.MrDuckEntity;
@@ -64,10 +64,10 @@ import net.mcreator.athenamod.entity.JesusEntity;
 import net.mcreator.athenamod.entity.ImpEntity;
 import net.mcreator.athenamod.entity.HeavenTempleMobEntity;
 import net.mcreator.athenamod.entity.GoblinEntity;
-import net.mcreator.athenamod.entity.GlockWithSwitchEntity;
+import net.mcreator.athenamod.entity.GlockWithSwitchProjectileEntity;
 import net.mcreator.athenamod.entity.GiantEntity;
 import net.mcreator.athenamod.entity.FortniteEntity;
-import net.mcreator.athenamod.entity.FireAttackEntity;
+import net.mcreator.athenamod.entity.FireAttackProjectileEntity;
 import net.mcreator.athenamod.entity.EvilKnightEntity;
 import net.mcreator.athenamod.entity.DrugDealerEntity;
 import net.mcreator.athenamod.entity.DragonEntity;
@@ -81,15 +81,15 @@ import net.mcreator.athenamod.entity.Civilian2Entity;
 import net.mcreator.athenamod.entity.ChrisChanEntity;
 import net.mcreator.athenamod.entity.ChiefKeefEntity;
 import net.mcreator.athenamod.entity.BrontosaurusEntity;
-import net.mcreator.athenamod.entity.BibleEntity;
+import net.mcreator.athenamod.entity.BibleProjectileEntity;
 import net.mcreator.athenamod.entity.BeefCakeEntity;
 import net.mcreator.athenamod.entity.AthenaEntity;
-import net.mcreator.athenamod.entity.AssaultRifleEntity;
-import net.mcreator.athenamod.entity.AssaultPistolEntity;
+import net.mcreator.athenamod.entity.AssaultRifleProjectileEntity;
+import net.mcreator.athenamod.entity.AssaultPistolProjectileEntity;
 import net.mcreator.athenamod.entity.ApolloEntity;
 import net.mcreator.athenamod.entity.AnoleEntity;
 import net.mcreator.athenamod.entity.AlienEntity;
-import net.mcreator.athenamod.entity.AetherswordEntity;
+import net.mcreator.athenamod.entity.AetherswordProjectileEntity;
 import net.mcreator.athenamod.AthenaModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -115,30 +115,16 @@ public class AthenaModModEntities {
 			EntityType.Builder.<AlienEntity>of(AlienEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AlienEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<SubMachineGunEntity>> SUB_MACHINE_GUN = register("projectile_sub_machine_gun",
-			EntityType.Builder.<SubMachineGunEntity>of(SubMachineGunEntity::new, MobCategory.MISC).setCustomClientFactory(SubMachineGunEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<RaygunEntity>> RAYGUN = register("projectile_raygun",
-			EntityType.Builder.<RaygunEntity>of(RaygunEntity::new, MobCategory.MISC).setCustomClientFactory(RaygunEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<AssaultRifleEntity>> ASSAULT_RIFLE = register("projectile_assault_rifle",
-			EntityType.Builder.<AssaultRifleEntity>of(AssaultRifleEntity::new, MobCategory.MISC).setCustomClientFactory(AssaultRifleEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<PistolEntity>> PISTOL = register("projectile_pistol",
-			EntityType.Builder.<PistolEntity>of(PistolEntity::new, MobCategory.MISC).setCustomClientFactory(PistolEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<UfoEntity>> UFO = register("ufo",
 			EntityType.Builder.<UfoEntity>of(UfoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UfoEntity::new)
 
 					.sized(3f, 3f));
-	public static final RegistryObject<EntityType<RifleEntity>> RIFLE = register("projectile_rifle",
-			EntityType.Builder.<RifleEntity>of(RifleEntity::new, MobCategory.MISC).setCustomClientFactory(RifleEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<RocketLauncherEntity>> ROCKET_LAUNCHER = register("projectile_rocket_launcher",
-			EntityType.Builder.<RocketLauncherEntity>of(RocketLauncherEntity::new, MobCategory.MISC).setCustomClientFactory(RocketLauncherEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<CivilianEntity>> CIVILIAN = register("civilian",
 			EntityType.Builder.<CivilianEntity>of(CivilianEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CivilianEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ZillaEntity>> ZILLA = register("zilla",
 			EntityType.Builder.<ZillaEntity>of(ZillaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(120).setUpdateInterval(3).setCustomClientFactory(ZillaEntity::new).fireImmune().sized(2f, 5f));
-	public static final RegistryObject<EntityType<ZillaBeamEntity>> ZILLA_BEAM = register("projectile_zilla_beam",
-			EntityType.Builder.<ZillaBeamEntity>of(ZillaBeamEntity::new, MobCategory.MISC).setCustomClientFactory(ZillaBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<PrinceEntity>> PRINCE = register("prince",
 			EntityType.Builder.<PrinceEntity>of(PrinceEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PrinceEntity::new)
 
@@ -162,7 +148,7 @@ public class AthenaModModEntities {
 	public static final RegistryObject<EntityType<JesusEntity>> JESUS = register("jesus",
 			EntityType.Builder.<JesusEntity>of(JesusEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(JesusEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DragonEntity>> DRAGON = register("dragon",
-			EntityType.Builder.<DragonEntity>of(DragonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(DragonEntity::new).fireImmune().sized(2f, 2f));
+			EntityType.Builder.<DragonEntity>of(DragonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(DragonEntity::new).fireImmune().sized(3f, 3f));
 	public static final RegistryObject<EntityType<TyrannosaurusRexEntity>> TYRANNOSAURUS_REX = register("tyrannosaurus_rex",
 			EntityType.Builder.<TyrannosaurusRexEntity>of(TyrannosaurusRexEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(TyrannosaurusRexEntity::new)
 
@@ -187,8 +173,6 @@ public class AthenaModModEntities {
 			EntityType.Builder.<WizardEntity>of(WizardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WizardEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<FireAttackEntity>> FIRE_ATTACK = register("projectile_fire_attack",
-			EntityType.Builder.<FireAttackEntity>of(FireAttackEntity::new, MobCategory.MISC).setCustomClientFactory(FireAttackEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<PigEntity>> PIG = register("pig",
 			EntityType.Builder.<PigEntity>of(PigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PigEntity::new)
 
@@ -211,8 +195,6 @@ public class AthenaModModEntities {
 			EntityType.Builder.<RaptorEntity>of(RaptorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(RaptorEntity::new)
 
 					.sized(1f, 1.8f));
-	public static final RegistryObject<EntityType<RevolverEntity>> REVOLVER = register("projectile_revolver",
-			EntityType.Builder.<RevolverEntity>of(RevolverEntity::new, MobCategory.MISC).setCustomClientFactory(RevolverEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<TerroristEntity>> TERRORIST = register("terrorist",
 			EntityType.Builder.<TerroristEntity>of(TerroristEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(TerroristEntity::new)
 
@@ -227,8 +209,6 @@ public class AthenaModModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ImpEntity>> IMP = register("imp",
 			EntityType.Builder.<ImpEntity>of(ImpEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ImpEntity::new).fireImmune().sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<WeakFireAttackEntity>> WEAK_FIRE_ATTACK = register("projectile_weak_fire_attack",
-			EntityType.Builder.<WeakFireAttackEntity>of(WeakFireAttackEntity::new, MobCategory.MISC).setCustomClientFactory(WeakFireAttackEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<EvilKnightEntity>> EVIL_KNIGHT = register("evil_knight",
 			EntityType.Builder.<EvilKnightEntity>of(EvilKnightEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EvilKnightEntity::new)
 
@@ -241,8 +221,6 @@ public class AthenaModModEntities {
 			EntityType.Builder.<ChiefKeefEntity>of(ChiefKeefEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChiefKeefEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<GlockWithSwitchEntity>> GLOCK_WITH_SWITCH = register("projectile_glock_with_switch", EntityType.Builder.<GlockWithSwitchEntity>of(GlockWithSwitchEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(GlockWithSwitchEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<BrontosaurusEntity>> BRONTOSAURUS = register("brontosaurus",
 			EntityType.Builder.<BrontosaurusEntity>of(BrontosaurusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrontosaurusEntity::new)
 
@@ -265,12 +243,6 @@ public class AthenaModModEntities {
 			EntityType.Builder.<AnoleEntity>of(AnoleEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnoleEntity::new)
 
 					.sized(0.6f, 0.6f));
-	public static final RegistryObject<EntityType<ShotgunEntity>> SHOTGUN = register("projectile_shotgun",
-			EntityType.Builder.<ShotgunEntity>of(ShotgunEntity::new, MobCategory.MISC).setCustomClientFactory(ShotgunEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<AssaultPistolEntity>> ASSAULT_PISTOL = register("projectile_assault_pistol",
-			EntityType.Builder.<AssaultPistolEntity>of(AssaultPistolEntity::new, MobCategory.MISC).setCustomClientFactory(AssaultPistolEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<SawedOffShotgunEntity>> SAWED_OFF_SHOTGUN = register("projectile_sawed_off_shotgun", EntityType.Builder.<SawedOffShotgunEntity>of(SawedOffShotgunEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(SawedOffShotgunEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<TrumpEntity>> TRUMP = register("trump",
 			EntityType.Builder.<TrumpEntity>of(TrumpEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TrumpEntity::new)
 
@@ -303,8 +275,6 @@ public class AthenaModModEntities {
 			EntityType.Builder.<ChrisChanEntity>of(ChrisChanEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChrisChanEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<BibleEntity>> BIBLE = register("projectile_bible",
-			EntityType.Builder.<BibleEntity>of(BibleEntity::new, MobCategory.MISC).setCustomClientFactory(BibleEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<WoolysheepEntity>> WOOLYSHEEP = register("woolysheep",
 			EntityType.Builder.<WoolysheepEntity>of(WoolysheepEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WoolysheepEntity::new)
 
@@ -328,11 +298,50 @@ public class AthenaModModEntities {
 	public static final RegistryObject<EntityType<NukeEntity>> NUKE = register("nuke",
 			EntityType.Builder.<NukeEntity>of(NukeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NukeEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DarkDragonEntity>> DARK_DRAGON = register("dark_dragon", EntityType.Builder.<DarkDragonEntity>of(DarkDragonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100)
-			.setUpdateInterval(3).setCustomClientFactory(DarkDragonEntity::new).fireImmune().sized(2f, 2f));
-	public static final RegistryObject<EntityType<AetherswordEntity>> AETHERSWORD = register("projectile_aethersword",
-			EntityType.Builder.<AetherswordEntity>of(AetherswordEntity::new, MobCategory.MISC).setCustomClientFactory(AetherswordEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<NukeLauncherEntity>> NUKE_LAUNCHER = register("projectile_nuke_launcher",
-			EntityType.Builder.<NukeLauncherEntity>of(NukeLauncherEntity::new, MobCategory.MISC).setCustomClientFactory(NukeLauncherEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+			.setUpdateInterval(3).setCustomClientFactory(DarkDragonEntity::new).fireImmune().sized(3f, 3f));
+	public static final RegistryObject<EntityType<RaygunProjectileEntity>> RAYGUN_PROJECTILE = register("projectile_raygun_projectile", EntityType.Builder.<RaygunProjectileEntity>of(RaygunProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(RaygunProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SubMachineGunProjectileEntity>> SUB_MACHINE_GUN_PROJECTILE = register("projectile_sub_machine_gun_projectile",
+			EntityType.Builder.<SubMachineGunProjectileEntity>of(SubMachineGunProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(SubMachineGunProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AssaultRifleProjectileEntity>> ASSAULT_RIFLE_PROJECTILE = register("projectile_assault_rifle_projectile",
+			EntityType.Builder.<AssaultRifleProjectileEntity>of(AssaultRifleProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(AssaultRifleProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PistolProjectileEntity>> PISTOL_PROJECTILE = register("projectile_pistol_projectile", EntityType.Builder.<PistolProjectileEntity>of(PistolProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(PistolProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RifleProjectileEntity>> RIFLE_PROJECTILE = register("projectile_rifle_projectile", EntityType.Builder.<RifleProjectileEntity>of(RifleProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(RifleProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RocketLauncherProjectileEntity>> ROCKET_LAUNCHER_PROJECTILE = register("projectile_rocket_launcher_projectile",
+			EntityType.Builder.<RocketLauncherProjectileEntity>of(RocketLauncherProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(RocketLauncherProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ZillaBeamProjectileEntity>> ZILLA_BEAM_PROJECTILE = register("projectile_zilla_beam_projectile", EntityType.Builder.<ZillaBeamProjectileEntity>of(ZillaBeamProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(ZillaBeamProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FireAttackProjectileEntity>> FIRE_ATTACK_PROJECTILE = register("projectile_fire_attack_projectile", EntityType.Builder.<FireAttackProjectileEntity>of(FireAttackProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(FireAttackProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RevolverProjectileEntity>> REVOLVER_PROJECTILE = register("projectile_revolver_projectile", EntityType.Builder.<RevolverProjectileEntity>of(RevolverProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(RevolverProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<WeakFireAttackProjectileEntity>> WEAK_FIRE_ATTACK_PROJECTILE = register("projectile_weak_fire_attack_projectile",
+			EntityType.Builder.<WeakFireAttackProjectileEntity>of(WeakFireAttackProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(WeakFireAttackProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<GlockWithSwitchProjectileEntity>> GLOCK_WITH_SWITCH_PROJECTILE = register("projectile_glock_with_switch_projectile",
+			EntityType.Builder.<GlockWithSwitchProjectileEntity>of(GlockWithSwitchProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(GlockWithSwitchProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ShotgunProjectileEntity>> SHOTGUN_PROJECTILE = register("projectile_shotgun_projectile", EntityType.Builder.<ShotgunProjectileEntity>of(ShotgunProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(ShotgunProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AssaultPistolProjectileEntity>> ASSAULT_PISTOL_PROJECTILE = register("projectile_assault_pistol_projectile",
+			EntityType.Builder.<AssaultPistolProjectileEntity>of(AssaultPistolProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(AssaultPistolProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SawedOffShotgunProjectileEntity>> SAWED_OFF_SHOTGUN_PROJECTILE = register("projectile_sawed_off_shotgun_projectile",
+			EntityType.Builder.<SawedOffShotgunProjectileEntity>of(SawedOffShotgunProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(SawedOffShotgunProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BibleProjectileEntity>> BIBLE_PROJECTILE = register("projectile_bible_projectile", EntityType.Builder.<BibleProjectileEntity>of(BibleProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(BibleProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AetherswordProjectileEntity>> AETHERSWORD_PROJECTILE = register("projectile_aethersword_projectile",
+			EntityType.Builder.<AetherswordProjectileEntity>of(AetherswordProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(AetherswordProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<NukeLauncherProjectileEntity>> NUKE_LAUNCHER_PROJECTILE = register("projectile_nuke_launcher_projectile",
+			EntityType.Builder.<NukeLauncherProjectileEntity>of(NukeLauncherProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(NukeLauncherProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

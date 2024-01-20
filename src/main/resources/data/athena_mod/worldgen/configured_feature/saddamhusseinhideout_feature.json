@@ -1,0 +1,14 @@
+{
+  "type": "athena_mod:structure_feature",
+  "config": {
+    "structure": "athena_mod:shhideout",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -6,
+      0
+    ]
+  }
+}

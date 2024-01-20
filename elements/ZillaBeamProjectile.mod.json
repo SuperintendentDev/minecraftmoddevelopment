@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Nothing"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 8.0,
+    "damage": 10.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onFlyingTick": {
+      "name": "ZillaBeamWhileProjectileFlyingTick"
+    }
+  }
+}

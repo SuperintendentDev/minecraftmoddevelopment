@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.lightning.thunder"
+    },
+    "igniteFire": false,
+    "power": 7.0,
+    "damage": 20.0,
+    "knockback": 1,
+    "entityModel": "ModelBullet",
+    "customModelTexture": "bulletmodeltexture.png",
+    "onHitsBlock": {
+      "name": "AetherswordProjectileHitsLivingEntity"
+    },
+    "onHitsPlayer": {
+      "name": "AetherswordProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "AetherswordProjectileHitsLivingEntity"
+    }
+  }
+}

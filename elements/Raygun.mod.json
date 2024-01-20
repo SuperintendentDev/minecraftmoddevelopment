@@ -1,37 +1,56 @@
 {
-  "_fv": 47,
-  "_type": "rangeditem",
+  "_fv": 57,
+  "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "raygun",
-    "customModelName": "Normal",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
     "name": "Raygun",
-    "specialInfo": [],
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "COMBAT"
     },
     "stackSize": 1,
-    "ammoItem": {
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 0.0,
+    "damageCount": 150,
+    "recipeRemainder": {
       "value": ""
     },
-    "shootConstantly": false,
-    "usageCount": 200,
-    "actionSound": {
-      "value": "CUSTOM:laser"
-    },
-    "hasGlow": false,
-    "animation": "none",
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 5.0,
-    "bulletDamage": 1.0,
-    "bulletKnockback": 3,
-    "bulletParticles": false,
-    "bulletIgnitesFire": false,
-    "bulletItemTexture": {
-      "value": "CUSTOM:Laser"
+    "specialInformation": {
+      "fixedValue": []
     },
-    "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "RaygunRightclicked"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:RaygunProjectile"
+    },
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }

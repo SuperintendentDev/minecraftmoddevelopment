@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 ",
-    " 3"
+    "a ",
+    " b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "athena_mod:gun_barrel"
     },
-    "3": {
+    "b": {
       "item": "athena_mod:reciever"
     }
   },

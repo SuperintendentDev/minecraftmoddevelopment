@@ -1,16 +1,16 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "badlands",
-    "bamboo_jungle",
-    "forest",
-    "dripstone_caves",
-    "dark_forest",
-    "plains",
-    "birch_forest",
-    "jungle",
     "desert",
+    "bamboo_jungle",
+    "badlands",
+    "forest",
+    "birch_forest",
     "mangrove_swamp",
+    "jungle",
+    "dark_forest",
+    "dripstone_caves",
+    "plains",
     "meadow"
   ],
   "spawners": {

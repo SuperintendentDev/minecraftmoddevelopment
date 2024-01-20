@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Raptor",
@@ -12,6 +12,7 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
+    "entityDataEntries": [],
     "modelWidth": 1.0,
     "modelHeight": 1.7999999999999998,
     "modelShadowSize": 0.5,

@@ -1,15 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "musicdisc",
   "definition": {
     "name": "Doomsday",
+    "rarity": "RARE",
     "texture": "mfdoommusicpic",
     "description": "mf doom",
     "creativeTab": {
       "value": "TOOLS"
     },
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "music": {
       "value": "CUSTOM:doomsday"
     },

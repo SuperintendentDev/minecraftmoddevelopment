@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "titanium_axe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Titanium Axe",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "TOOLS"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 9.0,
     "usageCount": 4000,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:TitaniumIngot"

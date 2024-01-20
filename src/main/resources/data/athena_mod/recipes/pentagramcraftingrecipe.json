@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:redstone"
     },
-    "1": {
-      "item": "minecraft:redstone"
-    },
-    "2": {
-      "item": "minecraft:redstone"
-    },
-    "3": {
-      "item": "minecraft:redstone"
-    },
-    "4": {
+    "b": {
       "item": "athena_mod:fallen_angel_blood"
-    },
-    "5": {
-      "item": "minecraft:redstone"
-    },
-    "6": {
-      "item": "minecraft:redstone"
-    },
-    "7": {
-      "item": "minecraft:redstone"
-    },
-    "8": {
-      "item": "minecraft:redstone"
     }
   },
   "result": {

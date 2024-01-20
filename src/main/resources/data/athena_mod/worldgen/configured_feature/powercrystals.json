@@ -1,5 +1,5 @@
 {
-  "type": "athena_mod:powercrystals",
+  "type": "minecraft:simple_block",
   "config": {
     "to_place": {
       "type": "minecraft:simple_state_provider",

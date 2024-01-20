@@ -6,8 +6,8 @@ license="Academic Free License v3.0"
 modId="athena_mod"
 version="1.0.0"
 displayName="Athena Mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="sharp, MCreator"
 
 [[dependencies.athena_mod]]

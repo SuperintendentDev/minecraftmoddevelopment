@@ -2,23 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "3 5"
+    "aaa",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "athena_mod:christanium_gem"
-    },
-    "1": {
-      "item": "athena_mod:christanium_gem"
-    },
-    "2": {
-      "item": "athena_mod:christanium_gem"
-    },
-    "3": {
-      "item": "athena_mod:christanium_gem"
-    },
-    "5": {
+    "a": {
       "item": "athena_mod:christanium_gem"
     }
   },

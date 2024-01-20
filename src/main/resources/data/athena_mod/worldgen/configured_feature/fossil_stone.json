@@ -1,5 +1,5 @@
 {
-  "type": "athena_mod:fossil_stone",
+  "type": "minecraft:ore",
   "config": {
     "size": 4,
     "discard_chance_on_air_exposure": 0,

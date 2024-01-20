@@ -18,7 +18,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class DarkDragonRenderer extends GeoEntityRenderer<DarkDragonEntity> {
 	public DarkDragonRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new DarkDragonModel());
-		this.shadowRadius = 3f;
+		this.shadowRadius = 2f;
 	}
 
 	@Override

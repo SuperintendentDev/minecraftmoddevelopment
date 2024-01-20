@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "athena_mod:satanic_arena_feature",
+  "step": "underground_structures"
+}

@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.athenamod.client.model.Modelrocket;
 import net.mcreator.athenamod.client.model.ModelLance;
 import net.mcreator.athenamod.client.model.ModelCustomModel;
+import net.mcreator.athenamod.client.model.ModelBullet;
 import net.mcreator.athenamod.client.model.ModelApollo;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -21,6 +22,7 @@ public class AthenaModModModels {
 		event.registerLayerDefinition(ModelLance.LAYER_LOCATION, ModelLance::createBodyLayer);
 		event.registerLayerDefinition(Modelrocket.LAYER_LOCATION, Modelrocket::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(ModelBullet.LAYER_LOCATION, ModelBullet::createBodyLayer);
 		event.registerLayerDefinition(ModelApollo.LAYER_LOCATION, ModelApollo::createBodyLayer);
 	}
 }

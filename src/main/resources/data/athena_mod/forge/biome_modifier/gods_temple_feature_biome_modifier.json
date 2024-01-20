@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "athena_mod:heaven_plains",
+  "features": "athena_mod:gods_temple_feature",
+  "step": "surface_structures"
+}

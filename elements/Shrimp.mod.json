@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Shrimp",
@@ -12,6 +12,7 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
+    "entityDataEntries": [],
     "modelWidth": 0.5,
     "modelHeight": 0.5,
     "modelShadowSize": 0.1,

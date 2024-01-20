@@ -1,15 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "musicdisc",
   "definition": {
     "name": "Hard",
+    "rarity": "RARE",
     "texture": "tayk",
     "description": "Tay K",
     "creativeTab": {
       "value": "TOOLS"
     },
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "music": {
       "value": "CUSTOM:hard2"
     },

@@ -7,6 +7,7 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -47,8 +48,6 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.athenamod.init.AthenaModModItems;
 import net.mcreator.athenamod.init.AthenaModModEntities;
-
-import java.util.List;
 
 public class KnightEntity extends TamableAnimal {
 	public KnightEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -182,7 +181,7 @@ public class KnightEntity extends TamableAnimal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(Items.EMERALD).contains(stack.getItem());
+		return Ingredient.of(new ItemStack(Items.EMERALD)).test(stack);
 	}
 
 	public static void init() {

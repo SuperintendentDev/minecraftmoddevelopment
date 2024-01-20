@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "athena_mod:fossil_stone",
-    "athena_mod:titanium_ore",
+    "athena_mod:heaven_stone",
     "athena_mod:moon_rock",
+    "athena_mod:fossil_stone",
     "athena_mod:christanium_ore",
-    "athena_mod:heaven_stone"
+    "athena_mod:titanium_ore"
   ]
 }

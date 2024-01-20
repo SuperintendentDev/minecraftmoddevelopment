@@ -1,15 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "musicdisc",
   "definition": {
     "name": "Treehome95",
+    "rarity": "RARE",
     "texture": "wolf_cover2",
     "description": "Treehome95",
     "creativeTab": {
       "value": "TOOLS"
     },
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "music": {
       "value": "CUSTOM:treehome95"
     },

@@ -41,34 +41,34 @@ public class AthenaModModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(AthenaModModItems.SUB_MACHINE_GUN.get());
-			tabData.accept(AthenaModModItems.RAYGUN.get());
 			tabData.accept(AthenaModModItems.BULLET.get());
-			tabData.accept(AthenaModModItems.ASSAULT_RIFLE.get());
 			tabData.accept(AthenaModModItems.RIFLE_BULLET.get());
-			tabData.accept(AthenaModModItems.PISTOL.get());
-			tabData.accept(AthenaModModItems.RIFLE.get());
-			tabData.accept(AthenaModModItems.ROCKET_LAUNCHER.get());
 			tabData.accept(AthenaModModItems.ROCKET.get());
-			tabData.accept(AthenaModModItems.ZILLA_BEAM.get());
 			tabData.accept(AthenaModModItems.ZILLA_SWORD.get());
-			tabData.accept(AthenaModModItems.FIRE_ATTACK.get());
 			tabData.accept(AthenaModModItems.OVERLORD_HELMET.get());
 			tabData.accept(AthenaModModItems.OVERLORD_CHESTPLATE.get());
 			tabData.accept(AthenaModModItems.OVERLORD_LEGGINGS.get());
 			tabData.accept(AthenaModModItems.OVERLORD_BOOTS.get());
 			tabData.accept(AthenaModModItems.OVERLORD_TOOLS_SWORD.get());
-			tabData.accept(AthenaModModItems.REVOLVER.get());
 			tabData.accept(AthenaModModItems.STEEL_SWORD.get());
 			tabData.accept(AthenaModModItems.TITANIUM_SWORD.get());
+			tabData.accept(AthenaModModItems.SHOTGUN_SHELL.get());
+			tabData.accept(AthenaModModBlocks.NUCLEAR_BOMB.get().asItem());
+			tabData.accept(AthenaModModItems.DAWN_BLADE.get());
+			tabData.accept(AthenaModModItems.SUB_MACHINE_GUN.get());
+			tabData.accept(AthenaModModItems.RAYGUN.get());
+			tabData.accept(AthenaModModItems.ASSAULT_RIFLE.get());
+			tabData.accept(AthenaModModItems.PISTOL.get());
+			tabData.accept(AthenaModModItems.RIFLE.get());
+			tabData.accept(AthenaModModItems.ROCKET_LAUNCHER.get());
+			tabData.accept(AthenaModModItems.ZILLA_BEAM.get());
+			tabData.accept(AthenaModModItems.FIRE_ATTACK.get());
+			tabData.accept(AthenaModModItems.REVOLVER.get());
 			tabData.accept(AthenaModModItems.GLOCK_WITH_SWITCH.get());
 			tabData.accept(AthenaModModItems.SHOTGUN.get());
-			tabData.accept(AthenaModModItems.SHOTGUN_SHELL.get());
 			tabData.accept(AthenaModModItems.ASSAULT_PISTOL.get());
 			tabData.accept(AthenaModModItems.SAWED_OFF_SHOTGUN.get());
 			tabData.accept(AthenaModModItems.BIBLE.get());
-			tabData.accept(AthenaModModBlocks.NUCLEAR_BOMB.get().asItem());
-			tabData.accept(AthenaModModItems.DAWN_BLADE.get());
 			tabData.accept(AthenaModModItems.AETHERSWORD.get());
 			tabData.accept(AthenaModModItems.NUKE_LAUNCHER.get());
 		}

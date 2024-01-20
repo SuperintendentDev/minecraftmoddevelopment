@@ -8,7 +8,9 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.athenamod.procedures.NuclearBombOnBlockRightClickedProcedure;
@@ -19,6 +21,11 @@ import java.util.Collections;
 public class NukeactivatedBlock extends Block {
 	public NukeactivatedBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(-1, 3600000));
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Zilla",
@@ -12,6 +12,7 @@
     "boundingBoxScale": {
       "fixedValue": 4.0
     },
+    "entityDataEntries": [],
     "modelWidth": 2.0,
     "modelHeight": 5.0,
     "modelShadowSize": 10.0,
@@ -136,7 +137,7 @@
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "ZillaBeam",
+    "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 150.0,
     "height": 40.0,

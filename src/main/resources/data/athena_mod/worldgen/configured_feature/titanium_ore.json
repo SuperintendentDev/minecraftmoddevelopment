@@ -1,5 +1,5 @@
 {
-  "type": "athena_mod:titanium_ore",
+  "type": "minecraft:ore",
   "config": {
     "size": 2,
     "discard_chance_on_air_exposure": 0,

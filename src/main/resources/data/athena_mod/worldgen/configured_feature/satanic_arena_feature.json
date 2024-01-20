@@ -1,0 +1,9 @@
+{
+  "type": "athena_mod:structure_feature",
+  "config": {
+    "structure": "athena_mod:satanarena",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

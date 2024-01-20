@@ -1,13 +1,13 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "stony_shore",
-    "athena_mod:forgotten_lands_forest",
-    "snowy_plains",
-    "windswept_hills",
+    "meadow",
     "plains",
     "savanna",
-    "meadow"
+    "snowy_plains",
+    "stony_shore",
+    "windswept_hills",
+    "athena_mod:forgotten_lands_forest"
   ],
   "spawners": {
     "type": "athena_mod:giant",

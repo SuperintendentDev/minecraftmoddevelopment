@@ -1,17 +1,17 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "savanna_plateau",
-    "forest",
-    "stony_shore",
-    "sparse_jungle",
-    "beach",
-    "savanna",
-    "stony_peaks",
-    "windswept_savanna",
-    "windswept_forest",
     "desert",
-    "swamp"
+    "beach",
+    "forest",
+    "savanna",
+    "savanna_plateau",
+    "sparse_jungle",
+    "stony_peaks",
+    "stony_shore",
+    "swamp",
+    "windswept_forest",
+    "windswept_savanna"
   ],
   "spawners": {
     "type": "athena_mod:terrorist",

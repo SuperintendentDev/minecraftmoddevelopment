@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "athena_mod:steelingot"
-    },
-    "1": {
-      "item": "athena_mod:steelingot"
-    },
-    "2": {
-      "item": "athena_mod:steelingot"
-    },
-    "3": {
-      "item": "athena_mod:steelingot"
-    },
-    "4": {
-      "item": "athena_mod:steelingot"
-    },
-    "5": {
-      "item": "athena_mod:steelingot"
-    },
-    "6": {
-      "item": "athena_mod:steelingot"
-    },
-    "7": {
-      "item": "athena_mod:steelingot"
-    },
-    "8": {
+    "a": {
       "item": "athena_mod:steelingot"
     }
   },

@@ -1,52 +1,58 @@
 {
-  "_fv": 47,
-  "_type": "rangeditem",
+  "_fv": 57,
+  "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "mc_smg",
     "customModelName": "nukelauncher:default",
+    "customProperties": {},
+    "states": [],
     "name": "Nuke Launcher",
-    "specialInfo": [],
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "COMBAT"
     },
     "stackSize": 1,
-    "ammoItem": {
-      "value": "CUSTOM:NuclearBomb"
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 0.0,
+    "damageCount": 100,
+    "recipeRemainder": {
+      "value": ""
     },
-    "shootConstantly": false,
-    "usageCount": 100,
-    "actionSound": {
-      "value": "CUSTOM:rocket"
-    },
-    "hasGlow": false,
-    "animation": "none",
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "enableMeleeDamage": true,
     "damageVsEntity": 4.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "RocketLauncherRangedItemUsed"
+    },
+    "enableRanged": true,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:NukeLauncherProjectile"
+    },
     "onRangedItemUsed": {
       "name": "RocketLauncherRangedItemUsed"
     },
-    "bulletPower": 3.5,
-    "bulletDamage": 5.0,
-    "bulletKnockback": 5,
-    "bulletParticles": false,
-    "bulletIgnitesFire": false,
-    "bulletItemTexture": {
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
       "value": ""
     },
-    "bulletModel": "Modelrocket",
-    "customBulletModelTexture": "rocketproj.png",
-    "onBulletHitsBlock": {
-      "name": "NukeLauncherProjectileHitsBlock"
-    },
-    "onBulletHitsPlayer": {
-      "name": "NukeLauncherProjectileHitsBlock"
-    },
-    "onBulletHitsEntity": {
-      "name": "NukeLauncherProjectileHitsBlock"
-    },
-    "onBulletFlyingTick": {
-      "name": "RocketLauncherWhileProjectileFlyingTick"
-    }
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }
