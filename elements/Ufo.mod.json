@@ -147,7 +147,7 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 1,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
@@ -213,6 +213,9 @@
       },
       {
         "value": "mountains"
+      },
+      {
+        "value": "CUSTOM:Moonbiome"
       }
     ],
     "spawnInDungeons": false

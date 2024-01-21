@@ -1,0 +1,37 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "badlands",
+    "bamboo_jungle",
+    "birch_forest",
+    "dark_forest",
+    "deep_dark",
+    "dripstone_caves",
+    "forest",
+    "mangrove_swamp",
+    "old_growth_birch_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "plains",
+    "savanna",
+    "savanna_plateau",
+    "snowy_plains",
+    "snowy_taiga",
+    "soul_sand_valley",
+    "stony_peaks",
+    "stony_shore",
+    "swamp",
+    "taiga",
+    "windswept_forest",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_savanna",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "athena_mod:ghost",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

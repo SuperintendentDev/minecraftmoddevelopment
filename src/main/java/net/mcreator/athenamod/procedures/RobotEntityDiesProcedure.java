@@ -30,10 +30,18 @@ public class RobotEntityDiesProcedure {
 						_level.addFreshEntity(entityToSpawn);
 					}
 				} else {
-					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AthenaModModItems.ALIEN_TECH.get()));
-						entityToSpawn.setPickUpDelay(10);
-						_level.addFreshEntity(entityToSpawn);
+					if (Mth.nextDouble(RandomSource.create(), 1, 10) <= 5) {
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AthenaModModItems.ROBOTIC_PARTS.get()));
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else {
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AthenaModModItems.ALIEN_TECH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
+						}
 					}
 				}
 			}

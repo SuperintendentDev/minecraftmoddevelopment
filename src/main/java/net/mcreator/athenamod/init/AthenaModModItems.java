@@ -40,6 +40,7 @@ import net.mcreator.athenamod.item.ShotgunItem;
 import net.mcreator.athenamod.item.SawedOffShotgunItem;
 import net.mcreator.athenamod.item.RocketLauncherItem;
 import net.mcreator.athenamod.item.RocketItem;
+import net.mcreator.athenamod.item.RoboticPartsItem;
 import net.mcreator.athenamod.item.RifleItem;
 import net.mcreator.athenamod.item.RifleBulletItem;
 import net.mcreator.athenamod.item.RevolverItem;
@@ -70,6 +71,7 @@ import net.mcreator.athenamod.item.GunBarrelItem;
 import net.mcreator.athenamod.item.GoldenLeafItem;
 import net.mcreator.athenamod.item.GlockWithSwitchItem;
 import net.mcreator.athenamod.item.GlockSwitchItem;
+import net.mcreator.athenamod.item.GhostInAJarItem;
 import net.mcreator.athenamod.item.FossilItem;
 import net.mcreator.athenamod.item.ForgottenLandsItem;
 import net.mcreator.athenamod.item.FireAttackItem;
@@ -86,6 +88,7 @@ import net.mcreator.athenamod.item.CheeseItem;
 import net.mcreator.athenamod.item.BulletItem;
 import net.mcreator.athenamod.item.BrontosaurusMeatItem;
 import net.mcreator.athenamod.item.BibleItem;
+import net.mcreator.athenamod.item.AstronautIceCreamItem;
 import net.mcreator.athenamod.item.AssaultRifleItem;
 import net.mcreator.athenamod.item.AssaultPistolItem;
 import net.mcreator.athenamod.item.AlienTechItem;
@@ -263,6 +266,13 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> BIBLE = REGISTRY.register("bible", () -> new BibleItem());
 	public static final RegistryObject<Item> AETHERSWORD = REGISTRY.register("aethersword", () -> new AetherswordItem());
 	public static final RegistryObject<Item> NUKE_LAUNCHER = REGISTRY.register("nuke_launcher", () -> new NukeLauncherItem());
+	public static final RegistryObject<Item> MOON_MITE_SPAWN_EGG = REGISTRY.register("moon_mite_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.MOON_MITE, -13494010, -7581166, new Item.Properties()));
+	public static final RegistryObject<Item> ZALGOR_SPAWN_EGG = REGISTRY.register("zalgor_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ZALGOR, -8948363, -12472236, new Item.Properties()));
+	public static final RegistryObject<Item> GHOST_SPAWN_EGG = REGISTRY.register("ghost_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.GHOST, -2960153, -4734765, new Item.Properties()));
+	public static final RegistryObject<Item> GHOST_IN_A_JAR = REGISTRY.register("ghost_in_a_jar", () -> new GhostInAJarItem());
+	public static final RegistryObject<Item> ZOMBIE_ASTRONAUT_SPAWN_EGG = REGISTRY.register("zombie_astronaut_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ZOMBIE_ASTRONAUT, -2104085, -12757704, new Item.Properties()));
+	public static final RegistryObject<Item> ASTRONAUT_ICE_CREAM = REGISTRY.register("astronaut_ice_cream", () -> new AstronautIceCreamItem());
+	public static final RegistryObject<Item> ROBOTIC_PARTS = REGISTRY.register("robotic_parts", () -> new RoboticPartsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

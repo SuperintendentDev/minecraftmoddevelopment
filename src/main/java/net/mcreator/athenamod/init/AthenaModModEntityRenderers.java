@@ -11,7 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.athenamod.client.renderer.ZombieAstronautRenderer;
 import net.mcreator.athenamod.client.renderer.ZillaRenderer;
+import net.mcreator.athenamod.client.renderer.ZalgorRenderer;
 import net.mcreator.athenamod.client.renderer.WoolysheepRenderer;
 import net.mcreator.athenamod.client.renderer.WizardRenderer;
 import net.mcreator.athenamod.client.renderer.UfoRenderer;
@@ -46,6 +48,7 @@ import net.mcreator.athenamod.client.renderer.NukeRenderer;
 import net.mcreator.athenamod.client.renderer.NukeLauncherProjectileRenderer;
 import net.mcreator.athenamod.client.renderer.NerdRenderer;
 import net.mcreator.athenamod.client.renderer.MrDuckRenderer;
+import net.mcreator.athenamod.client.renderer.MoonMiteRenderer;
 import net.mcreator.athenamod.client.renderer.MfDoomRenderer;
 import net.mcreator.athenamod.client.renderer.LumberjackRenderer;
 import net.mcreator.athenamod.client.renderer.LancePetersonRenderer;
@@ -58,6 +61,7 @@ import net.mcreator.athenamod.client.renderer.HeavenTempleMobRenderer;
 import net.mcreator.athenamod.client.renderer.GoblinRenderer;
 import net.mcreator.athenamod.client.renderer.GlockWithSwitchProjectileRenderer;
 import net.mcreator.athenamod.client.renderer.GiantRenderer;
+import net.mcreator.athenamod.client.renderer.GhostRenderer;
 import net.mcreator.athenamod.client.renderer.FortniteRenderer;
 import net.mcreator.athenamod.client.renderer.EvilKnightRenderer;
 import net.mcreator.athenamod.client.renderer.DrugDealerRenderer;
@@ -159,5 +163,9 @@ public class AthenaModModEntityRenderers {
 		event.registerEntityRenderer(AthenaModModEntities.BIBLE_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.AETHERSWORD_PROJECTILE.get(), AetherswordProjectileRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.NUKE_LAUNCHER_PROJECTILE.get(), NukeLauncherProjectileRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.MOON_MITE.get(), MoonMiteRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.ZALGOR.get(), ZalgorRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.GHOST.get(), GhostRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.ZOMBIE_ASTRONAUT.get(), ZombieAstronautRenderer::new);
 	}
 }

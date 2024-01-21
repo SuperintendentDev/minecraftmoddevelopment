@@ -129,6 +129,10 @@ public class AthenaModModTabs {
 			tabData.accept(AthenaModModItems.KEY_MASTER_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.DAISY_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.DARK_DRAGON_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.MOON_MITE_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.ZALGOR_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.GHOST_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.ZOMBIE_ASTRONAUT_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -150,6 +154,8 @@ public class AthenaModModTabs {
 			tabData.accept(AthenaModModItems.ALIEN_TECH.get());
 			tabData.accept(AthenaModModItems.FALLEN_ANGEL_BLOOD.get());
 			tabData.accept(AthenaModModItems.NUCLEAR_WARHEAD.get());
+			tabData.accept(AthenaModModItems.GHOST_IN_A_JAR.get());
+			tabData.accept(AthenaModModItems.ROBOTIC_PARTS.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
@@ -166,6 +172,7 @@ public class AthenaModModTabs {
 			tabData.accept(AthenaModModItems.BRONTOSAURUS_MEAT.get());
 			tabData.accept(AthenaModModItems.TYRANNOSAURUS_MEAT.get());
 			tabData.accept(AthenaModModItems.RAPTOR_MEAT.get());
+			tabData.accept(AthenaModModItems.ASTRONAUT_ICE_CREAM.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

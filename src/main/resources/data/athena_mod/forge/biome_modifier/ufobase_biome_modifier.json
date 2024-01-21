@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "athena_mod:moonbiome",
+  "features": "athena_mod:ufobase",
+  "step": "surface_structures"
+}

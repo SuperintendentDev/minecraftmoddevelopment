@@ -16,8 +16,10 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.athenamod.entity.ZombieAstronautEntity;
 import net.mcreator.athenamod.entity.ZillaEntity;
 import net.mcreator.athenamod.entity.ZillaBeamProjectileEntity;
+import net.mcreator.athenamod.entity.ZalgorEntity;
 import net.mcreator.athenamod.entity.WoolysheepEntity;
 import net.mcreator.athenamod.entity.WizardEntity;
 import net.mcreator.athenamod.entity.WeakFireAttackProjectileEntity;
@@ -54,6 +56,7 @@ import net.mcreator.athenamod.entity.NukeLauncherProjectileEntity;
 import net.mcreator.athenamod.entity.NukeEntity;
 import net.mcreator.athenamod.entity.NerdEntity;
 import net.mcreator.athenamod.entity.MrDuckEntity;
+import net.mcreator.athenamod.entity.MoonMiteEntity;
 import net.mcreator.athenamod.entity.MfDoomEntity;
 import net.mcreator.athenamod.entity.LumberjackEntity;
 import net.mcreator.athenamod.entity.LancePetersonEntity;
@@ -66,6 +69,7 @@ import net.mcreator.athenamod.entity.HeavenTempleMobEntity;
 import net.mcreator.athenamod.entity.GoblinEntity;
 import net.mcreator.athenamod.entity.GlockWithSwitchProjectileEntity;
 import net.mcreator.athenamod.entity.GiantEntity;
+import net.mcreator.athenamod.entity.GhostEntity;
 import net.mcreator.athenamod.entity.FortniteEntity;
 import net.mcreator.athenamod.entity.FireAttackProjectileEntity;
 import net.mcreator.athenamod.entity.EvilKnightEntity;
@@ -116,7 +120,7 @@ public class AthenaModModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<UfoEntity>> UFO = register("ufo",
-			EntityType.Builder.<UfoEntity>of(UfoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UfoEntity::new)
+			EntityType.Builder.<UfoEntity>of(UfoEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UfoEntity::new)
 
 					.sized(3f, 3f));
 	public static final RegistryObject<EntityType<CivilianEntity>> CIVILIAN = register("civilian",
@@ -342,6 +346,20 @@ public class AthenaModModEntities {
 	public static final RegistryObject<EntityType<NukeLauncherProjectileEntity>> NUKE_LAUNCHER_PROJECTILE = register("projectile_nuke_launcher_projectile",
 			EntityType.Builder.<NukeLauncherProjectileEntity>of(NukeLauncherProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(NukeLauncherProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MoonMiteEntity>> MOON_MITE = register("moon_mite",
+			EntityType.Builder.<MoonMiteEntity>of(MoonMiteEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MoonMiteEntity::new)
+
+					.sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ZalgorEntity>> ZALGOR = register("zalgor",
+			EntityType.Builder.<ZalgorEntity>of(ZalgorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(ZalgorEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GhostEntity>> GHOST = register("ghost",
+			EntityType.Builder.<GhostEntity>of(GhostEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(GhostEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ZombieAstronautEntity>> ZOMBIE_ASTRONAUT = register("zombie_astronaut",
+			EntityType.Builder.<ZombieAstronautEntity>of(ZombieAstronautEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZombieAstronautEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -407,6 +425,10 @@ public class AthenaModModEntities {
 			HeavenTempleMobEntity.init();
 			NukeEntity.init();
 			DarkDragonEntity.init();
+			MoonMiteEntity.init();
+			ZalgorEntity.init();
+			GhostEntity.init();
+			ZombieAstronautEntity.init();
 		});
 	}
 
@@ -469,5 +491,9 @@ public class AthenaModModEntities {
 		event.put(HEAVEN_TEMPLE_MOB.get(), HeavenTempleMobEntity.createAttributes().build());
 		event.put(NUKE.get(), NukeEntity.createAttributes().build());
 		event.put(DARK_DRAGON.get(), DarkDragonEntity.createAttributes().build());
+		event.put(MOON_MITE.get(), MoonMiteEntity.createAttributes().build());
+		event.put(ZALGOR.get(), ZalgorEntity.createAttributes().build());
+		event.put(GHOST.get(), GhostEntity.createAttributes().build());
+		event.put(ZOMBIE_ASTRONAUT.get(), ZombieAstronautEntity.createAttributes().build());
 	}
 }

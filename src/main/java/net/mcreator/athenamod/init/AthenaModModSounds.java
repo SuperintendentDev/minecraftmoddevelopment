@@ -135,4 +135,5 @@ public class AthenaModModSounds {
 	public static final RegistryObject<SoundEvent> DAISYHURT2 = REGISTRY.register("daisyhurt2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("athena_mod", "daisyhurt2")));
 	public static final RegistryObject<SoundEvent> NUKE = REGISTRY.register("nuke", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("athena_mod", "nuke")));
 	public static final RegistryObject<SoundEvent> NUKESIREN = REGISTRY.register("nukesiren", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("athena_mod", "nukesiren")));
+	public static final RegistryObject<SoundEvent> GHOSTAMB = REGISTRY.register("ghostamb", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("athena_mod", "ghostamb")));
 }

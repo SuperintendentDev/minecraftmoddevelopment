@@ -6443,6 +6443,265 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "MoonMite",
+      "type": "animatedentity",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_mite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/moon_mite_biome_modifier.json",
+          "src/main/resources/assets/athena_mod/models/item/moon_mite_spawn_egg.json",
+          "src/main/java/net/mcreator/athenamod/entity/MoonMiteEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/MoonMiteRenderer.java",
+          "src/main/java/net/mcreator/athenamod/entity/model/MoonMiteModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Zalgor",
+      "type": "animatedentity",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zalgor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/client/renderer/ZalgorRenderer.java",
+          "src/main/java/net/mcreator/athenamod/entity/ZalgorEntity.java",
+          "src/main/java/net/mcreator/athenamod/entity/model/ZalgorModel.java",
+          "src/main/resources/assets/athena_mod/models/item/zalgor_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "GhostRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/GhostRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Ghost",
+      "type": "animatedentity",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/layer/GhostLayer.java",
+          "src/main/java/net/mcreator/athenamod/entity/model/GhostModel.java",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/ghost_biome_modifier.json",
+          "src/main/resources/assets/athena_mod/models/item/ghost_spawn_egg.json",
+          "src/main/java/net/mcreator/athenamod/entity/GhostEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/GhostRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "GhostInAJar",
+      "type": "item",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_in_a_jar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/GhostInAJarItem.java",
+          "src/main/resources/assets/athena_mod/models/item/ghost_in_a_jar.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ZombieAstronaut",
+      "type": "animatedentity",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_astronaut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/zombie_astronaut_biome_modifier.json",
+          "src/main/java/net/mcreator/athenamod/client/renderer/ZombieAstronautRenderer.java",
+          "src/main/resources/assets/athena_mod/models/item/zombie_astronaut_spawn_egg.json",
+          "src/main/java/net/mcreator/athenamod/entity/model/ZombieAstronautModel.java",
+          "src/main/java/net/mcreator/athenamod/entity/ZombieAstronautEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Lolol",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/recipes/lolol.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "GhostInAJarRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_in_a_jar_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/GhostInAJarRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AstronautIceCream",
+      "type": "item",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronaut_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/AstronautIceCreamItem.java",
+          "src/main/resources/assets/athena_mod/models/item/astronaut_ice_cream.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RoboticParts",
+      "type": "item",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robotic_parts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/item/RoboticPartsItem.java",
+          "src/main/resources/assets/athena_mod/models/item/robotic_parts.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MoonLoot",
+      "type": "loottable",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/loot_tables/chests/moon_loot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MoonPortalTriggerUsed",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_portal_trigger_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/procedures/MoonPortalTriggerUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dimensionsandbiomes"
+    },
+    {
+      "name": "Ufobase",
+      "type": "feature",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ufobase",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/ufobase_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/ufobase.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/ufobase.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Crashedship",
+      "type": "feature",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashedship",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/athena_mod/forge/biome_modifier/crashedship_biome_modifier.json",
+          "src/main/resources/data/athena_mod/worldgen/configured_feature/crashedship.json",
+          "src/main/resources/data/athena_mod/worldgen/placed_feature/crashedship.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/structures"
     }
   ],
   "variable_elements": [
@@ -7431,6 +7690,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "ghostamb",
+      "files": [
+        "ghost"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -7440,6 +7707,7 @@
       "entity.athena_mod.evil_knight": "Evil Knight",
       "subtitles.nuke": "",
       "subtitles.robotwalk": "",
+      "entity.athena_mod.ghost": "Ghost",
       "item.athena_mod.mr_duck_spawn_egg": "Mr. Duck Spawn Egg",
       "subtitles.satanhurt": "",
       "item.athena_mod.tay_k_spawn_egg": "Tay K Spawn Egg",
@@ -7544,6 +7812,7 @@
       "entity.athena_mod.thot": "Thot",
       "subtitles.robotambient": "",
       "subtitles.akbar": "",
+      "entity.athena_mod.zombie_astronaut": "Zombie Astronaut",
       "item.athena_mod.titanium_hoe": "Titanium Hoe",
       "entity.athena_mod.dark_dragon": "Dark Dragon",
       "item.athena_mod.knight_spawn_egg": "Knight Spawn Egg",
@@ -7571,6 +7840,7 @@
       "item.athena_mod.christanium_gem": "Overlord Gem",
       "entity.athena_mod.athena": "Athena",
       "entity.athena_mod.goblin": "Goblin",
+      "subtitles.ghostamb": "",
       "effect.athena_mod.moon_gravity": "Moon Gravity",
       "entity.athena_mod.soldier": "Soldier",
       "subtitles.chrischanamb": "",
@@ -7583,6 +7853,7 @@
       "subtitles.tayklouder": "",
       "subtitles.rifle": "",
       "subtitles.rockmonsterdeath": "",
+      "entity.athena_mod.moon_mite": "Moon Mite",
       "block.athena_mod.old_leaves": "Leaves",
       "subtitles.civ1death": "",
       "item.athena_mod.assault_rifle": "Assault Rifle",
@@ -7621,6 +7892,7 @@
       "subtitles.nerdhurt": "",
       "item.athena_mod.testitem": "Testitem",
       "block.athena_mod.church_brick": "Church Brick",
+      "entity.athena_mod.zalgor": "Zalgor",
       "block.athena_mod.power_crystal_block": "Power Crystal Block",
       "item.athena_mod.titanium_shovel": "Titanium Shovel",
       "item.athena_mod.assault_pistol": "Assault Pistol",
@@ -7633,6 +7905,7 @@
       "subtitles.thotdeath": "",
       "entity.athena_mod.chris_chan": "Chris Chan",
       "subtitles.daisyend": "",
+      "item.athena_mod.ghost_spawn_egg": "Ghost Spawn Egg",
       "item.athena_mod.chris_chan_spawn_egg": "Chris Chan Spawn Egg",
       "item.athena_mod.gun_barrel": "Gun Barrel",
       "subtitles.obamahurt": "",
@@ -7656,7 +7929,7 @@
       "item.athena_mod.wizard_spawn_egg": "Wizard Spawn Egg",
       "item.athena_mod.rifle_bullet": "Rifle Bullet",
       "subtitles.terroramb": "",
-      "item.athena_mod.moon": "Cheese",
+      "item.athena_mod.moon": "Cheese Sauce",
       "item.athena_mod.athena_spawn_egg": "Athena Spawn Egg",
       "subtitles.rocket": "",
       "block.athena_mod.churchwood_stairs": "Churchwood Stairs",
@@ -7665,8 +7938,10 @@
       "item.athena_mod.reciever": "Reciever",
       "subtitles.heaventheme": "",
       "subtitles.trexamb": "",
+      "item.athena_mod.robotic_parts": "Robotic Parts",
       "subtitles.tylerhurt": "",
       "subtitles.treehome95": "",
+      "item.athena_mod.zalgor_spawn_egg": "Zalgor Spawn Egg",
       "item.athena_mod.magazine": "Magazine",
       "item.athena_mod.hard": "Hard",
       "subtitles.impdeath": "",
@@ -7674,6 +7949,7 @@
       "block.athena_mod.titanium_ore": "Titanium Ore",
       "entity.athena_mod.beef_cake": "Beef Cake",
       "subtitles.raptorhurt": "",
+      "item.athena_mod.moon_mite_spawn_egg": "Moon Mite Spawn Egg",
       "item.athena_mod.aethersword": "Aetherbane, the Celestial Arbiter",
       "item.athena_mod.soldier_spawn_egg": "Soldier Spawn Egg",
       "subtitles.obamadeath": "",
@@ -7718,6 +7994,7 @@
       "item.athena_mod.dark_dragon_spawn_egg": "Dark Dragon Spawn Egg",
       "block.athena_mod.satanic_base": "Satanic Base",
       "subtitles.nukesiren": "",
+      "item.athena_mod.ghost_in_a_jar": "Ghost In A Jar",
       "item.athena_mod.nerd_spawn_egg": "Nerd Spawn Egg",
       "entity.athena_mod.civilian_2": "Larry",
       "block.athena_mod.churchwood_slab": "Churchwood Slab",
@@ -7762,6 +8039,7 @@
       "block.athena_mod.christanium_ore": "Overlord Ore",
       "item.athena_mod.rocket_launcher": "Rocket Launcher",
       "item.athena_mod.overlord_tools_axe": "Overlord Axe",
+      "item.athena_mod.zombie_astronaut_spawn_egg": "Zombie Astronaut Spawn Egg",
       "entity.athena_mod.prince": "Prince",
       "item.athena_mod.overlord_boots": "Overlord Boots",
       "entity.athena_mod.speedster": "Speedster",
@@ -7797,7 +8075,8 @@
       "subtitles.daisyamb2": "",
       "entity.athena_mod.nerd": "Nerd",
       "item.athena_mod.overlord_helmet": "Overlord Helmet",
-      "item.athena_mod.key": "Key"
+      "item.athena_mod.key": "Key",
+      "item.athena_mod.astronaut_ice_cream": "Astronaut Ice Cream"
     }
   },
   "foldersRoot": {

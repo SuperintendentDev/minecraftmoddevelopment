@@ -21,7 +21,8 @@
     "taiga",
     "windswept_forest",
     "windswept_gravelly_hills",
-    "windswept_hills"
+    "windswept_hills",
+    "athena_mod:moonbiome"
   ],
   "spawners": {
     "type": "athena_mod:ufo",

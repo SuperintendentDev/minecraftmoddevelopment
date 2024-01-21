@@ -4,7 +4,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
+import net.mcreator.athenamod.entity.ZombieAstronautEntity;
 import net.mcreator.athenamod.entity.ZillaEntity;
+import net.mcreator.athenamod.entity.ZalgorEntity;
 import net.mcreator.athenamod.entity.WoolysheepEntity;
 import net.mcreator.athenamod.entity.WizardEntity;
 import net.mcreator.athenamod.entity.UfoEntity;
@@ -24,10 +26,12 @@ import net.mcreator.athenamod.entity.PrinceEntity;
 import net.mcreator.athenamod.entity.NukeEntity;
 import net.mcreator.athenamod.entity.NerdEntity;
 import net.mcreator.athenamod.entity.MrDuckEntity;
+import net.mcreator.athenamod.entity.MoonMiteEntity;
 import net.mcreator.athenamod.entity.KeyMasterEntity;
 import net.mcreator.athenamod.entity.JesusEntity;
 import net.mcreator.athenamod.entity.ImpEntity;
 import net.mcreator.athenamod.entity.GiantEntity;
+import net.mcreator.athenamod.entity.GhostEntity;
 import net.mcreator.athenamod.entity.DrugDealerEntity;
 import net.mcreator.athenamod.entity.DragonEntity;
 import net.mcreator.athenamod.entity.DemonEntity;
@@ -300,6 +304,34 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof DarkDragonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof MoonMiteEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ZalgorEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof GhostEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ZombieAstronautEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

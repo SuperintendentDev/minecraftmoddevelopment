@@ -21,7 +21,7 @@
     "canRespawnHere": true,
     "hasFog": false,
     "isDark": false,
-    "doesWaterVaporize": false,
+    "doesWaterVaporize": true,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
@@ -29,14 +29,14 @@
       "value": "CUSTOM:CheeseBlock"
     },
     "portalParticles": {
-      "value": "ASH"
+      "value": "ELECTRIC_SPARK"
     },
     "portalLuminance": 1,
     "portalSound": {
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Cheese",
+    "igniterName": "Cheese Sauce",
     "specialInformation": {
       "fixedValue": []
     },
@@ -45,6 +45,9 @@
     },
     "texture": "bucketofcheese",
     "portalTexture": "moonportalanimated",
-    "enablePortal": true
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "MoonPortalTriggerUsed"
+    }
   }
 }

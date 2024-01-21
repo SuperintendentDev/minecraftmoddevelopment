@@ -11,6 +11,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.athenamod.procedures.MoonPortalTriggerUsedProcedure;
 import net.mcreator.athenamod.block.MoonPortalBlock;
 
 import java.util.List;
@@ -43,7 +44,9 @@ public class MoonItem extends Item {
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
-			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
+
+			MoonPortalTriggerUsedProcedure.execute(entity);
+			return InteractionResult.SUCCESS;
 		}
 	}
 }

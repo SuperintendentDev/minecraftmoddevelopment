@@ -958,5 +958,13 @@
         "stream": false
       }
     ]
+  },
+  "ghostamb": {
+    "sounds": [
+      {
+        "name": "athena_mod:ghost",
+        "stream": false
+      }
+    ]
   }
 }
