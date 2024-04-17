@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Prince",
+    "mobName": "Dog Prince",
     "mobLabel": "",
     "mobModelTexture": "prince2.png",
     "mobModelGlowTexture": "nothing.png",
@@ -149,9 +149,6 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:City"
-      },
       {
         "value": "beaches"
       },

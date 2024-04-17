@@ -72,7 +72,7 @@ public class ApolloEntity extends TamableAnimal implements GeoEntity {
 	public String animationprocedure = "empty";
 
 	public ApolloEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AthenaModModEntities.APOLLO.get(), world);
+		this(AthenaModModEntities.GECKO.get(), world);
 	}
 
 	public ApolloEntity(EntityType<ApolloEntity> type, Level world) {
@@ -234,7 +234,7 @@ public class ApolloEntity extends TamableAnimal implements GeoEntity {
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		ApolloEntity retval = AthenaModModEntities.APOLLO.get().create(serverWorld);
+		ApolloEntity retval = AthenaModModEntities.GECKO.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
 		return retval;
 	}

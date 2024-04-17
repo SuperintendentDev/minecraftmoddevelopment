@@ -43,6 +43,7 @@ import net.mcreator.athenamod.client.renderer.RaptorRenderer;
 import net.mcreator.athenamod.client.renderer.PrinceRenderer;
 import net.mcreator.athenamod.client.renderer.PistolProjectileRenderer;
 import net.mcreator.athenamod.client.renderer.PigRenderer;
+import net.mcreator.athenamod.client.renderer.OrkRenderer;
 import net.mcreator.athenamod.client.renderer.ObamaRenderer;
 import net.mcreator.athenamod.client.renderer.NukeRenderer;
 import net.mcreator.athenamod.client.renderer.NukeLauncherProjectileRenderer;
@@ -77,7 +78,6 @@ import net.mcreator.athenamod.client.renderer.ChrisChanRenderer;
 import net.mcreator.athenamod.client.renderer.ChiefKeefRenderer;
 import net.mcreator.athenamod.client.renderer.BrontosaurusRenderer;
 import net.mcreator.athenamod.client.renderer.BeefCakeRenderer;
-import net.mcreator.athenamod.client.renderer.AthenaRenderer;
 import net.mcreator.athenamod.client.renderer.AssaultRifleProjectileRenderer;
 import net.mcreator.athenamod.client.renderer.AssaultPistolProjectileRenderer;
 import net.mcreator.athenamod.client.renderer.ApolloRenderer;
@@ -89,10 +89,9 @@ import net.mcreator.athenamod.client.renderer.AetherswordProjectileRenderer;
 public class AthenaModModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(AthenaModModEntities.LANCE_PETERSON.get(), LancePetersonRenderer::new);
-		event.registerEntityRenderer(AthenaModModEntities.APOLLO.get(), ApolloRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.KING.get(), LancePetersonRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.GECKO.get(), ApolloRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.CRICKET.get(), CricketRenderer::new);
-		event.registerEntityRenderer(AthenaModModEntities.ATHENA.get(), AthenaRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.ALIEN.get(), AlienRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.UFO.get(), UfoRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.CIVILIAN.get(), CivilianRenderer::new);
@@ -167,5 +166,6 @@ public class AthenaModModEntityRenderers {
 		event.registerEntityRenderer(AthenaModModEntities.ZALGOR.get(), ZalgorRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.GHOST.get(), GhostRenderer::new);
 		event.registerEntityRenderer(AthenaModModEntities.ZOMBIE_ASTRONAUT.get(), ZombieAstronautRenderer::new);
+		event.registerEntityRenderer(AthenaModModEntities.ORK.get(), OrkRenderer::new);
 	}
 }

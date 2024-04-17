@@ -1,7 +1,6 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "athena_mod:city",
     "badlands",
     "bamboo_jungle",
     "beach",

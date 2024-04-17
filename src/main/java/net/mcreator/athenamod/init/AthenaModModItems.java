@@ -97,12 +97,11 @@ import net.mcreator.athenamod.AthenaModMod;
 
 public class AthenaModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, AthenaModMod.MODID);
-	public static final RegistryObject<Item> LANCE_PETERSON_SPAWN_EGG = REGISTRY.register("lance_peterson_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.LANCE_PETERSON, -1, -13159, new Item.Properties()));
+	public static final RegistryObject<Item> KING_SPAWN_EGG = REGISTRY.register("king_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.KING, -65536, -13159, new Item.Properties()));
 	public static final RegistryObject<Item> ELFBAR = REGISTRY.register("elfbar", () -> new ElfbarItem());
-	public static final RegistryObject<Item> APOLLO_SPAWN_EGG = REGISTRY.register("apollo_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.APOLLO, -13261, -103, new Item.Properties()));
+	public static final RegistryObject<Item> GECKO_SPAWN_EGG = REGISTRY.register("gecko_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.GECKO, -13261, -103, new Item.Properties()));
 	public static final RegistryObject<Item> DEAD_CRICKET = REGISTRY.register("dead_cricket", () -> new DeadCricketItem());
 	public static final RegistryObject<Item> CRICKET_SPAWN_EGG = REGISTRY.register("cricket_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.CRICKET, -6724096, -6711040, new Item.Properties()));
-	public static final RegistryObject<Item> ATHENA_SPAWN_EGG = REGISTRY.register("athena_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ATHENA, -16777216, -13312, new Item.Properties()));
 	public static final RegistryObject<Item> MOON = REGISTRY.register("moon", () -> new MoonItem());
 	public static final RegistryObject<Item> CHEESE = REGISTRY.register("cheese", () -> new CheeseItem());
 	public static final RegistryObject<Item> CHEESE_BLOCK = block(AthenaModModBlocks.CHEESE_BLOCK);
@@ -273,6 +272,7 @@ public class AthenaModModItems {
 	public static final RegistryObject<Item> ZOMBIE_ASTRONAUT_SPAWN_EGG = REGISTRY.register("zombie_astronaut_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ZOMBIE_ASTRONAUT, -2104085, -12757704, new Item.Properties()));
 	public static final RegistryObject<Item> ASTRONAUT_ICE_CREAM = REGISTRY.register("astronaut_ice_cream", () -> new AstronautIceCreamItem());
 	public static final RegistryObject<Item> ROBOTIC_PARTS = REGISTRY.register("robotic_parts", () -> new RoboticPartsItem());
+	public static final RegistryObject<Item> ORK_SPAWN_EGG = REGISTRY.register("ork_spawn_egg", () -> new ForgeSpawnEggItem(AthenaModModEntities.ORK, -10053376, -16751104, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

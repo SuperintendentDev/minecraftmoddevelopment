@@ -51,6 +51,7 @@ import net.mcreator.athenamod.entity.RaptorEntity;
 import net.mcreator.athenamod.entity.PrinceEntity;
 import net.mcreator.athenamod.entity.PistolProjectileEntity;
 import net.mcreator.athenamod.entity.PigEntity;
+import net.mcreator.athenamod.entity.OrkEntity;
 import net.mcreator.athenamod.entity.ObamaEntity;
 import net.mcreator.athenamod.entity.NukeLauncherProjectileEntity;
 import net.mcreator.athenamod.entity.NukeEntity;
@@ -87,7 +88,6 @@ import net.mcreator.athenamod.entity.ChiefKeefEntity;
 import net.mcreator.athenamod.entity.BrontosaurusEntity;
 import net.mcreator.athenamod.entity.BibleProjectileEntity;
 import net.mcreator.athenamod.entity.BeefCakeEntity;
-import net.mcreator.athenamod.entity.AthenaEntity;
 import net.mcreator.athenamod.entity.AssaultRifleProjectileEntity;
 import net.mcreator.athenamod.entity.AssaultPistolProjectileEntity;
 import net.mcreator.athenamod.entity.ApolloEntity;
@@ -99,11 +99,11 @@ import net.mcreator.athenamod.AthenaModMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AthenaModModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AthenaModMod.MODID);
-	public static final RegistryObject<EntityType<LancePetersonEntity>> LANCE_PETERSON = register("lance_peterson",
+	public static final RegistryObject<EntityType<LancePetersonEntity>> KING = register("king",
 			EntityType.Builder.<LancePetersonEntity>of(LancePetersonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LancePetersonEntity::new)
 
 					.sized(1f, 2.4f));
-	public static final RegistryObject<EntityType<ApolloEntity>> APOLLO = register("apollo",
+	public static final RegistryObject<EntityType<ApolloEntity>> GECKO = register("gecko",
 			EntityType.Builder.<ApolloEntity>of(ApolloEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ApolloEntity::new)
 
 					.sized(0.6f, 1f));
@@ -111,10 +111,6 @@ public class AthenaModModEntities {
 			EntityType.Builder.<CricketEntity>of(CricketEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CricketEntity::new)
 
 					.sized(0.6f, 0.6f));
-	public static final RegistryObject<EntityType<AthenaEntity>> ATHENA = register("athena",
-			EntityType.Builder.<AthenaEntity>of(AthenaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AthenaEntity::new)
-
-					.sized(0.6f, 1f));
 	public static final RegistryObject<EntityType<AlienEntity>> ALIEN = register("alien",
 			EntityType.Builder.<AlienEntity>of(AlienEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AlienEntity::new)
 
@@ -360,6 +356,10 @@ public class AthenaModModEntities {
 			EntityType.Builder.<ZombieAstronautEntity>of(ZombieAstronautEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZombieAstronautEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<OrkEntity>> ORK = register("ork",
+			EntityType.Builder.<OrkEntity>of(OrkEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrkEntity::new)
+
+					.sized(1f, 2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -371,7 +371,6 @@ public class AthenaModModEntities {
 			LancePetersonEntity.init();
 			ApolloEntity.init();
 			CricketEntity.init();
-			AthenaEntity.init();
 			AlienEntity.init();
 			UfoEntity.init();
 			CivilianEntity.init();
@@ -429,15 +428,15 @@ public class AthenaModModEntities {
 			ZalgorEntity.init();
 			GhostEntity.init();
 			ZombieAstronautEntity.init();
+			OrkEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(LANCE_PETERSON.get(), LancePetersonEntity.createAttributes().build());
-		event.put(APOLLO.get(), ApolloEntity.createAttributes().build());
+		event.put(KING.get(), LancePetersonEntity.createAttributes().build());
+		event.put(GECKO.get(), ApolloEntity.createAttributes().build());
 		event.put(CRICKET.get(), CricketEntity.createAttributes().build());
-		event.put(ATHENA.get(), AthenaEntity.createAttributes().build());
 		event.put(ALIEN.get(), AlienEntity.createAttributes().build());
 		event.put(UFO.get(), UfoEntity.createAttributes().build());
 		event.put(CIVILIAN.get(), CivilianEntity.createAttributes().build());
@@ -495,5 +494,6 @@ public class AthenaModModEntities {
 		event.put(ZALGOR.get(), ZalgorEntity.createAttributes().build());
 		event.put(GHOST.get(), GhostEntity.createAttributes().build());
 		event.put(ZOMBIE_ASTRONAUT.get(), ZombieAstronautEntity.createAttributes().build());
+		event.put(ORK.get(), OrkEntity.createAttributes().build());
 	}
 }

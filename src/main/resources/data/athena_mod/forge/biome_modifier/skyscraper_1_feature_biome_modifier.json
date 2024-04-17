@@ -1,6 +1,8 @@
 {
   "type": "forge:add_features",
-  "biomes": "athena_mod:city",
+  "biomes": {
+    "type": "forge:any"
+  },
   "features": "athena_mod:skyscraper_1_feature",
   "step": "surface_structures"
 }

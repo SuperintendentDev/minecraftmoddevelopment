@@ -32,7 +32,7 @@ import net.mcreator.athenamod.init.AthenaModModEntities;
 
 public class LancePetersonEntity extends Monster {
 	public LancePetersonEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AthenaModModEntities.LANCE_PETERSON.get(), world);
+		this(AthenaModModEntities.KING.get(), world);
 	}
 
 	public LancePetersonEntity(EntityType<LancePetersonEntity> type, Level world) {

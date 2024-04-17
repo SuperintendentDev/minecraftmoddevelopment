@@ -146,9 +146,6 @@
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:City"
-      },
-      {
         "value": "roofed_forest"
       },
       {

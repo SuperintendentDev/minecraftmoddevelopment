@@ -9,26 +9,26 @@ import software.bernie.geckolib.constant.DataTickets;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.athenamod.entity.AthenaEntity;
+import net.mcreator.athenamod.entity.OrkEntity;
 
-public class AthenaModel extends GeoModel<AthenaEntity> {
+public class OrkModel extends GeoModel<OrkEntity> {
 	@Override
-	public ResourceLocation getAnimationResource(AthenaEntity entity) {
-		return new ResourceLocation("athena_mod", "animations/athena.animation.json");
+	public ResourceLocation getAnimationResource(OrkEntity entity) {
+		return new ResourceLocation("athena_mod", "animations/ork.animation.json");
 	}
 
 	@Override
-	public ResourceLocation getModelResource(AthenaEntity entity) {
-		return new ResourceLocation("athena_mod", "geo/athena.geo.json");
+	public ResourceLocation getModelResource(OrkEntity entity) {
+		return new ResourceLocation("athena_mod", "geo/ork.geo.json");
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(AthenaEntity entity) {
+	public ResourceLocation getTextureResource(OrkEntity entity) {
 		return new ResourceLocation("athena_mod", "textures/entities/" + entity.getTexture() + ".png");
 	}
 
 	@Override
-	public void setCustomAnimations(AthenaEntity animatable, long instanceId, AnimationState animationState) {
+	public void setCustomAnimations(OrkEntity animatable, long instanceId, AnimationState animationState) {
 		CoreGeoBone head = getAnimationProcessor().getBone("head");
 		if (head != null) {
 			int unpausedMultiplier = !Minecraft.getInstance().isPaused() ? 1 : 0;

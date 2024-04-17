@@ -8,8 +8,7 @@
     "taiga",
     "old_growth_birch_forest",
     "old_growth_pine_taiga",
-    "old_growth_spruce_taiga",
-    "athena_mod:city"
+    "old_growth_spruce_taiga"
   ],
   "spawners": {
     "type": "athena_mod:kanye",

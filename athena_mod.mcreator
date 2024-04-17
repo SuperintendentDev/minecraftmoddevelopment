@@ -6,10 +6,10 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lance_peterson",
+      "registry_name": "king",
       "metadata": {
         "files": [
-          "src/main/resources/assets/athena_mod/models/item/lance_peterson_spawn_egg.json",
+          "src/main/resources/assets/athena_mod/models/item/king_spawn_egg.json",
           "src/main/java/net/mcreator/athenamod/client/renderer/LancePetersonRenderer.java",
           "src/main/java/net/mcreator/athenamod/entity/LancePetersonEntity.java"
         ]
@@ -57,14 +57,14 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "apollo",
+      "registry_name": "gecko",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/athenamod/client/renderer/ApolloRenderer.java",
           "src/main/java/net/mcreator/athenamod/entity/layer/ApolloLayer.java",
-          "src/main/resources/assets/athena_mod/models/item/apollo_spawn_egg.json",
           "src/main/java/net/mcreator/athenamod/entity/ApolloEntity.java",
-          "src/main/java/net/mcreator/athenamod/entity/model/ApolloModel.java"
+          "src/main/java/net/mcreator/athenamod/entity/model/ApolloModel.java",
+          "src/main/resources/assets/athena_mod/models/item/gecko_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -99,24 +99,6 @@
           "src/main/java/net/mcreator/athenamod/entity/layer/CricketLayer.java",
           "src/main/java/net/mcreator/athenamod/entity/model/CricketModel.java",
           "src/main/java/net/mcreator/athenamod/client/renderer/CricketRenderer.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "Athena",
-      "type": "animatedentity",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "athena",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/athenamod/entity/model/AthenaModel.java",
-          "src/main/java/net/mcreator/athenamod/entity/layer/AthenaLayer.java",
-          "src/main/resources/assets/athena_mod/models/item/athena_spawn_egg.json",
-          "src/main/java/net/mcreator/athenamod/entity/AthenaEntity.java",
-          "src/main/java/net/mcreator/athenamod/client/renderer/AthenaRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -963,20 +945,6 @@
         ]
       },
       "path": "~/procedures"
-    },
-    {
-      "name": "City",
-      "type": "biome",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "city",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/athena_mod/worldgen/biome/city.json"
-        ]
-      },
-      "path": "~/dimensionsandbiomes"
     },
     {
       "name": "Civilian",
@@ -6702,6 +6670,24 @@
         "has_nbt_structure": true
       },
       "path": "~/structures"
+    },
+    {
+      "name": "Ork",
+      "type": "animatedentity",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ork",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/athenamod/entity/model/OrkModel.java",
+          "src/main/resources/assets/athena_mod/models/item/ork_spawn_egg.json",
+          "src/main/resources/data/athena_mod/forge/biome_modifier/ork_biome_modifier.json",
+          "src/main/java/net/mcreator/athenamod/entity/OrkEntity.java",
+          "src/main/java/net/mcreator/athenamod/client/renderer/OrkRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -7739,7 +7725,6 @@
       "entity.athena_mod.mf_doom": "MF DOOM",
       "entity.athena_mod.key_master": "Key Master",
       "entity.athena_mod.sus_guy": "Herobrine",
-      "entity.athena_mod.lance_peterson": "Lance",
       "subtitles.impamb": "",
       "block.athena_mod.rose": "Flower",
       "subtitles.trumphurt": "",
@@ -7750,10 +7735,8 @@
       "subtitles.soldieramb": "",
       "block.athena_mod.lunar_soil": "Lunar Soil",
       "item.athena_mod.alien_tech": "Alien Technology",
-      "item.athena_mod.apollo_spawn_egg": "Apollo Spawn Egg",
       "item.athena_mod.cross": "Cross",
       "subtitles.lumberdeath": "",
-      "item.athena_mod.lance_peterson_spawn_egg": "Lance Spawn Egg",
       "item.athena_mod.raw_titanium": "Raw Titanium",
       "entity.athena_mod.obama": "Obama",
       "block.athena_mod.golden_apple_tree_leaves": "Heaven Leaves",
@@ -7763,6 +7746,7 @@
       "item.athena_mod.glock_with_switch": "Glock with a Switch",
       "item.athena_mod.pig_spawn_egg": "Pig Spawn Egg",
       "subtitles.raptorambient": "",
+      "entity.athena_mod.king": "King",
       "item.athena_mod.tyrannosaurus_meat": "Tyrannosaurus Meat",
       "subtitles.demondeath": "",
       "item.athena_mod.fortnite_spawn_egg": "Fortnite Spawn Egg",
@@ -7781,6 +7765,7 @@
       "item.athena_mod.steel_hoe": "Steel Hoe",
       "subtitles.knighthurt": "",
       "subtitles.nerdalive": "",
+      "item.athena_mod.gecko_spawn_egg": "Leopard Gecko Spawn Egg",
       "subtitles.hard2": "",
       "subtitles.wizardamb": "",
       "subtitles.taykfreed": "",
@@ -7791,6 +7776,7 @@
       "item.athena_mod.overlord_tools_pickaxe": "Overlord Pickaxe",
       "item.athena_mod.steel_sword": "Steel Sword",
       "subtitles.satanamb": "",
+      "entity.athena_mod.ork": "Ork",
       "item.athena_mod.overlord_tools_sword": "Overlord Sword",
       "item.athena_mod.hard.desc": "Tay K",
       "subtitles.imphurt": "",
@@ -7808,7 +7794,6 @@
       "block.athena_mod.heaven_grass": "Heaven Grass",
       "subtitles.bibleused": "",
       "entity.athena_mod.jesus": "Jesus",
-      "biome.athena_mod.city": "City",
       "entity.athena_mod.thot": "Thot",
       "subtitles.robotambient": "",
       "subtitles.akbar": "",
@@ -7838,7 +7823,6 @@
       "subtitles.cricketchirp": "",
       "subtitles.kanyeamb": "",
       "item.athena_mod.christanium_gem": "Overlord Gem",
-      "entity.athena_mod.athena": "Athena",
       "entity.athena_mod.goblin": "Goblin",
       "subtitles.ghostamb": "",
       "effect.athena_mod.moon_gravity": "Moon Gravity",
@@ -7865,6 +7849,7 @@
       "item.athena_mod.mf_doom_spawn_egg": "MF DOOM Spawn Egg",
       "item.athena_mod.forgotten_lands": "Ancient Totem",
       "item.athena_mod.rock_monster_spawn_egg": "RockMonster Spawn Egg",
+      "item.athena_mod.king_spawn_egg": "King Spawn Egg",
       "block.athena_mod.heaven_grass_block": "Heaven Grass Block",
       "item.athena_mod.snail_spawn_egg": "Snail Spawn Egg",
       "item.athena_mod.power_crystal_shard": "Power Crystal Shard",
@@ -7930,10 +7915,10 @@
       "item.athena_mod.rifle_bullet": "Rifle Bullet",
       "subtitles.terroramb": "",
       "item.athena_mod.moon": "Cheese Sauce",
-      "item.athena_mod.athena_spawn_egg": "Athena Spawn Egg",
       "subtitles.rocket": "",
       "block.athena_mod.churchwood_stairs": "Churchwood Stairs",
       "subtitles.trexdeath": "",
+      "entity.athena_mod.gecko": "Leopard Gecko",
       "item.athena_mod.treehome_95": "Treehome95",
       "item.athena_mod.reciever": "Reciever",
       "subtitles.heaventheme": "",
@@ -7958,9 +7943,10 @@
       "item.athena_mod.deerman_spawn_egg": "Deerman Spawn Egg",
       "entity.athena_mod.ufo": "Ufo",
       "item.athena_mod.fossil": "Fossil",
-      "item.athena_mod.prince_spawn_egg": "Prince Spawn Egg",
+      "item.athena_mod.prince_spawn_egg": "Dog Prince Spawn Egg",
       "block.athena_mod.fossil_stone": "Fossil Stone",
       "subtitles.demonamb": "",
+      "item.athena_mod.ork_spawn_egg": "Ork Spawn Egg",
       "subtitles.gunshot": "",
       "entity.athena_mod.civilian": "John",
       "entity.athena_mod.deerman": "Deerman",
@@ -8013,7 +7999,6 @@
       "subtitles.dontlike": "",
       "item.athena_mod.civilian_2_spawn_egg": "Larry Spawn Egg",
       "item.athena_mod.sawed_off_shotgun": "Sawed Off Shotgun",
-      "entity.athena_mod.apollo": "Apollo",
       "entity.athena_mod.dragon": "Dragon",
       "subtitles.doomdeath": "",
       "item.athena_mod.brontosaurus_meat": "Brontosaurus Meat",
@@ -8040,7 +8025,7 @@
       "item.athena_mod.rocket_launcher": "Rocket Launcher",
       "item.athena_mod.overlord_tools_axe": "Overlord Axe",
       "item.athena_mod.zombie_astronaut_spawn_egg": "Zombie Astronaut Spawn Egg",
-      "entity.athena_mod.prince": "Prince",
+      "entity.athena_mod.prince": "Dog Prince",
       "item.athena_mod.overlord_boots": "Overlord Boots",
       "entity.athena_mod.speedster": "Speedster",
       "item.athena_mod.laser": "Laser",

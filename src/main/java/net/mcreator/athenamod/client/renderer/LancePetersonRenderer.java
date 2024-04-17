@@ -31,6 +31,6 @@ public class LancePetersonRenderer extends MobRenderer<LancePetersonEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(LancePetersonEntity entity) {
-		return new ResourceLocation("athena_mod:textures/entities/lance.png");
+		return new ResourceLocation("athena_mod:textures/entities/king.png");
 	}
 }

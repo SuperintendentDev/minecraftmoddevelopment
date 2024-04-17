@@ -23,6 +23,7 @@ import net.mcreator.athenamod.entity.RockMonsterEntity;
 import net.mcreator.athenamod.entity.RobotEntity;
 import net.mcreator.athenamod.entity.RaptorEntity;
 import net.mcreator.athenamod.entity.PrinceEntity;
+import net.mcreator.athenamod.entity.OrkEntity;
 import net.mcreator.athenamod.entity.NukeEntity;
 import net.mcreator.athenamod.entity.NerdEntity;
 import net.mcreator.athenamod.entity.MrDuckEntity;
@@ -41,7 +42,6 @@ import net.mcreator.athenamod.entity.DaisyEntity;
 import net.mcreator.athenamod.entity.CricketEntity;
 import net.mcreator.athenamod.entity.BrontosaurusEntity;
 import net.mcreator.athenamod.entity.BeefCakeEntity;
-import net.mcreator.athenamod.entity.AthenaEntity;
 import net.mcreator.athenamod.entity.ApolloEntity;
 import net.mcreator.athenamod.entity.AnoleEntity;
 import net.mcreator.athenamod.entity.AlienEntity;
@@ -59,13 +59,6 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof CricketEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof AthenaEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
@@ -332,6 +325,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof ZombieAstronautEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof OrkEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

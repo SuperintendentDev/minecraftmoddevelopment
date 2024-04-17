@@ -3,7 +3,7 @@
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 200
+      "chance": 10000
     },
     {
       "type": "minecraft:in_square"
@@ -16,7 +16,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:blackstone",
+        "blocks": "minecraft:stone",
         "offset": [
           0,
           -1,

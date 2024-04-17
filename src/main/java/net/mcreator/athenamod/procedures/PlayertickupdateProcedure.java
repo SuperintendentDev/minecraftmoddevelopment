@@ -52,6 +52,12 @@ public class PlayertickupdateProcedure {
 					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
+			{
+				Entity _ent = entity;
+				_ent.teleportTo(x, 400, z);
+				if (_ent instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.connection.teleport(x, 400, z, _ent.getYRot(), _ent.getXRot());
+			}
 		}
 	}
 }

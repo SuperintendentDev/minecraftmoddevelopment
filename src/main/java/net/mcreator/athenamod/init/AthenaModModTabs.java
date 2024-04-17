@@ -74,10 +74,9 @@ public class AthenaModModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(AthenaModModItems.LANCE_PETERSON_SPAWN_EGG.get());
-			tabData.accept(AthenaModModItems.APOLLO_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.KING_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.GECKO_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.CRICKET_SPAWN_EGG.get());
-			tabData.accept(AthenaModModItems.ATHENA_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.ALIEN_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.UFO_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.CIVILIAN_SPAWN_EGG.get());
@@ -133,6 +132,7 @@ public class AthenaModModTabs {
 			tabData.accept(AthenaModModItems.ZALGOR_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.GHOST_SPAWN_EGG.get());
 			tabData.accept(AthenaModModItems.ZOMBIE_ASTRONAUT_SPAWN_EGG.get());
+			tabData.accept(AthenaModModItems.ORK_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

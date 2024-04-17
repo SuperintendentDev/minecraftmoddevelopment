@@ -1,7 +1,6 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "athena_mod:city",
     "beach",
     "birch_forest",
     "cherry_grove",

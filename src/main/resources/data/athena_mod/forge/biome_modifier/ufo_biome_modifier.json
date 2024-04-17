@@ -2,7 +2,6 @@
   "type": "forge:add_spawns",
   "biomes": [
     "desert",
-    "athena_mod:city",
     "dark_forest",
     "flower_forest",
     "forest",

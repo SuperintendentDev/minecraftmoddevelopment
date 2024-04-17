@@ -2,12 +2,24 @@
   "_fv": 57,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Lance",
+    "mobName": "King",
     "mobLabel": "",
     "mobModelName": "ModelLance",
-    "mobModelTexture": "lance.png",
+    "mobModelTexture": "king.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
     "solidBoundingBox": {
       "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
     },
     "modelLayers": [
       {
@@ -22,7 +34,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -65536,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -66,6 +78,9 @@
     "health": 200,
     "xpAmount": 100,
     "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
     "pushedByFluids": {
       "fixedValue": true
     },
